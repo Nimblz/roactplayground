@@ -1,0 +1,47 @@
+{
+  "name": "newpizzaalpaca",
+  "tree": {
+    "$className": "DataModel",
+    "HttpService": {
+      "$className": "HttpService",
+      "$properties": {
+        "HttpEnabled": true
+      }
+    },
+
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$path": "src/server"
+    },
+
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "common": {
+        "$path": "src/common"
+      },
+      "lib": {
+        "$className": "Folder",
+        "Roact": {
+          "$path": "lib/roact/src"
+        },
+        "Rodux": {
+          "$path": "lib/rodux/lib"
+        },
+        "RoactRodux": {
+          "$path": "lib/roactrodux/lib"
+        },
+        "PizzaAlpaca": {
+          "$path": "lib/pizzaalpaca/lib"
+        }
+      }
+    },
+
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "$path": "src/client"
+      }
+    }
+  }
+}
