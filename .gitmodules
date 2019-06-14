@@ -1,0 +1,12 @@
+[submodule "lib/roact"]
+	path = lib/roact
+	url = https://github.com/Roblox/roact.git
+[submodule "lib/roactrodux"]
+	path = lib/roactrodux
+	url = https://github.com/Roblox/roactrodux.git
+[submodule "lib/rodux"]
+	path = lib/rodux
+	url = https://github.com/Roblox/rodux.git
+[submodule "lib/pizzaalpaca"]
+	path = lib/pizzaalpaca
+	url = https://github.com/Nimblz/pizzaalpaca.git
