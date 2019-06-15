@@ -18,7 +18,7 @@ local NUM_BINARY_ROWS = 10
 local BINARY_LABEL_HEIGHT = 22
 local BINARY_ROW_PADDING = 2
 
-local BINARY_CYCLES_PER_SEC = 3
+local BINARY_CYCLES_PER_SEC = (1/256)*60
 
 local function alphaFromTime(t)
     return (t*BINARY_CYCLES_PER_SEC)%1
