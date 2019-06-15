@@ -39,26 +39,26 @@
 		<Item class="Camera" referent="RBXC4CC51F9FA8F4009AA5943FDBD74C395">
 			<Properties>
 				<CoordinateFrame name="CFrame">
-					<X>-74.0784149</X>
-					<Y>33.1743202</Y>
-					<Z>31.780035</Z>
-					<R00>0.344576776</R00>
-					<R01>0.468172252</R01>
-					<R02>-0.813683987</R02>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
 					<R10>-0</R10>
-					<R11>0.866766393</R11>
-					<R12>0.498714447</R12>
-					<R20>0.938758135</R20>
-					<R21>-0.171845421</R21>
-					<R22>0.29866755</R22>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>-0</R20>
+					<R21>-0</R21>
+					<R22>1</R22>
 				</CoordinateFrame>
 				<Ref name="CameraSubject">null</Ref>
 				<token name="CameraType">0</token>
 				<float name="FieldOfView">70</float>
 				<CoordinateFrame name="Focus">
-					<X>-72.4510345</X>
-					<Y>32.1768837</Y>
-					<Z>31.1826954</Z>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
 					<R00>1</R00>
 					<R01>0</R01>
 					<R02>0</R02>
@@ -161,175 +161,2040 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 				</Vector3>
 			</Properties>
 		</Item>
-		<Item class="Part" referent="RBXE7A039AC223D476A95A2E83C1337D6DA">
+		<Item class="Folder" referent="RBX439F1C11EF0749AF98C9EA1BB736BFC3">
 			<Properties>
-				<bool name="Anchored">true</bool>
-				<float name="BackParamA">-0.5</float>
-				<float name="BackParamB">0.5</float>
-				<token name="BackSurface">0</token>
-				<token name="BackSurfaceInput">0</token>
-				<float name="BottomParamA">-0.5</float>
-				<float name="BottomParamB">0.5</float>
-				<token name="BottomSurface">0</token>
-				<token name="BottomSurfaceInput">0</token>
-				<CoordinateFrame name="CFrame">
-					<X>0</X>
-					<Y>-2</Y>
-					<Z>0</Z>
-					<R00>1</R00>
-					<R01>0</R01>
-					<R02>0</R02>
-					<R10>0</R10>
-					<R11>1</R11>
-					<R12>0</R12>
-					<R20>0</R20>
-					<R21>0</R21>
-					<R22>1</R22>
-				</CoordinateFrame>
-				<bool name="CanCollide">true</bool>
-				<bool name="CastShadow">true</bool>
-				<int name="CollisionGroupId">0</int>
-				<Color3uint8 name="Color3uint8">4288651692</Color3uint8>
-				<PhysicalProperties name="CustomPhysicalProperties">
-					<CustomPhysics>false</CustomPhysics>
-				</PhysicalProperties>
-				<float name="FrontParamA">-0.5</float>
-				<float name="FrontParamB">0.5</float>
-				<token name="FrontSurface">0</token>
-				<token name="FrontSurfaceInput">0</token>
-				<float name="LeftParamA">-0.5</float>
-				<float name="LeftParamB">0.5</float>
-				<token name="LeftSurface">0</token>
-				<token name="LeftSurfaceInput">0</token>
-				<bool name="Locked">true</bool>
-				<bool name="Massless">false</bool>
-				<token name="Material">272</token>
-				<string name="Name">Baseplate</string>
-				<float name="Reflectance">0</float>
-				<float name="RightParamA">-0.5</float>
-				<float name="RightParamB">0.5</float>
-				<token name="RightSurface">0</token>
-				<token name="RightSurfaceInput">0</token>
-				<int name="RootPriority">0</int>
-				<Vector3 name="RotVelocity">
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</Vector3>
+				<string name="Name">baseplates</string>
 				<BinaryString name="Tags"></BinaryString>
-				<float name="TopParamA">-0.5</float>
-				<float name="TopParamB">0.5</float>
-				<token name="TopSurface">0</token>
-				<token name="TopSurfaceInput">0</token>
-				<float name="Transparency">0</float>
-				<Vector3 name="Velocity">
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</Vector3>
-				<token name="formFactorRaw">1</token>
-				<token name="shape">1</token>
-				<Vector3 name="size">
-					<X>100</X>
-					<Y>4</Y>
-					<Z>100</Z>
-				</Vector3>
 			</Properties>
-			<Item class="Texture" referent="RBXB2BFE4B1258844449725F675134B991D">
+			<Item class="Model" referent="RBX288DDBC4EBFD43BBBF71529DC7014DDB">
 				<Properties>
-					<Color3 name="Color3">
-						<R>0</R>
-						<G>0</G>
-						<B>0</B>
-					</Color3>
-					<token name="Face">2</token>
-					<string name="Name">Back</string>
-					<float name="StudsPerTileU">8</float>
-					<float name="StudsPerTileV">8</float>
+					<CoordinateFrame name="ModelInPrimary">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<string name="Name">checkerSegment</string>
+					<Ref name="PrimaryPart">RBXC858519E185B4A84B7B9CA8FD0BD1037</Ref>
 					<BinaryString name="Tags"></BinaryString>
-					<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
-					<float name="Transparency">0.899999976</float>
 				</Properties>
+				<Item class="Part" referent="RBX332A571D632E403BBAAFFAF8454E4669">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<CoordinateFrame name="CFrame">
+							<X>-24</X>
+							<Y>-2</Y>
+							<Z>24</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<bool name="CastShadow">true</bool>
+						<int name="CollisionGroupId">0</int>
+						<Color3uint8 name="Color3uint8">4288651692</Color3uint8>
+						<PhysicalProperties name="CustomPhysicalProperties">
+							<CustomPhysics>false</CustomPhysics>
+						</PhysicalProperties>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<bool name="Massless">false</bool>
+						<token name="Material">272</token>
+						<string name="Name">Baseplate</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<int name="RootPriority">0</int>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<BinaryString name="Tags"></BinaryString>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">1</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>48</X>
+							<Y>4</Y>
+							<Z>48</Z>
+						</Vector3>
+					</Properties>
+					<Item class="Texture" referent="RBX7C6BCCBB7C994EF59A90141568AEE791">
+						<Properties>
+							<Color3 name="Color3">
+								<R>0</R>
+								<G>0</G>
+								<B>0</B>
+							</Color3>
+							<token name="Face">2</token>
+							<string name="Name">Back</string>
+							<float name="StudsPerTileU">8</float>
+							<float name="StudsPerTileV">8</float>
+							<BinaryString name="Tags"></BinaryString>
+							<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+							<float name="Transparency">0.899999976</float>
+						</Properties>
+					</Item>
+					<Item class="Texture" referent="RBX877304CC47424AF2821BA0617C2A4712">
+						<Properties>
+							<Color3 name="Color3">
+								<R>0</R>
+								<G>0</G>
+								<B>0</B>
+							</Color3>
+							<token name="Face">4</token>
+							<string name="Name">Bottom</string>
+							<float name="StudsPerTileU">8</float>
+							<float name="StudsPerTileV">8</float>
+							<BinaryString name="Tags"></BinaryString>
+							<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+							<float name="Transparency">0.899999976</float>
+						</Properties>
+					</Item>
+					<Item class="Texture" referent="RBX20D98CE09F2B432F982A4B3CECE7581B">
+						<Properties>
+							<Color3 name="Color3">
+								<R>0</R>
+								<G>0</G>
+								<B>0</B>
+							</Color3>
+							<token name="Face">5</token>
+							<string name="Name">Front</string>
+							<float name="StudsPerTileU">8</float>
+							<float name="StudsPerTileV">8</float>
+							<BinaryString name="Tags"></BinaryString>
+							<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+							<float name="Transparency">0.899999976</float>
+						</Properties>
+					</Item>
+					<Item class="Texture" referent="RBX398F2E33A53C4D59ADB397544000DB69">
+						<Properties>
+							<Color3 name="Color3">
+								<R>0</R>
+								<G>0</G>
+								<B>0</B>
+							</Color3>
+							<token name="Face">3</token>
+							<string name="Name">Left</string>
+							<float name="StudsPerTileU">8</float>
+							<float name="StudsPerTileV">8</float>
+							<BinaryString name="Tags"></BinaryString>
+							<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+							<float name="Transparency">0.899999976</float>
+						</Properties>
+					</Item>
+					<Item class="Texture" referent="RBX7C86EC60B8A045D9AE279F8CE353866C">
+						<Properties>
+							<Color3 name="Color3">
+								<R>0</R>
+								<G>0</G>
+								<B>0</B>
+							</Color3>
+							<token name="Face">0</token>
+							<string name="Name">Right</string>
+							<float name="StudsPerTileU">8</float>
+							<float name="StudsPerTileV">8</float>
+							<BinaryString name="Tags"></BinaryString>
+							<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+							<float name="Transparency">0.899999976</float>
+						</Properties>
+					</Item>
+					<Item class="Texture" referent="RBXE350E20F5FF04C7090BD24B7ED02BE92">
+						<Properties>
+							<Color3 name="Color3">
+								<R>0</R>
+								<G>0</G>
+								<B>0</B>
+							</Color3>
+							<token name="Face">1</token>
+							<string name="Name">Top</string>
+							<float name="StudsPerTileU">8</float>
+							<float name="StudsPerTileV">8</float>
+							<BinaryString name="Tags"></BinaryString>
+							<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+							<float name="Transparency">0.899999976</float>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="Part" referent="RBXD47380FC1D364A8D81F31CDD73E14362">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<CoordinateFrame name="CFrame">
+							<X>-24</X>
+							<Y>-2</Y>
+							<Z>-24</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<bool name="CastShadow">true</bool>
+						<int name="CollisionGroupId">0</int>
+						<Color3uint8 name="Color3uint8">4289769658</Color3uint8>
+						<PhysicalProperties name="CustomPhysicalProperties">
+							<CustomPhysics>false</CustomPhysics>
+						</PhysicalProperties>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<bool name="Massless">false</bool>
+						<token name="Material">272</token>
+						<string name="Name">Baseplate</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<int name="RootPriority">0</int>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<BinaryString name="Tags"></BinaryString>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">1</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>48</X>
+							<Y>4</Y>
+							<Z>48</Z>
+						</Vector3>
+					</Properties>
+					<Item class="Texture" referent="RBXD2E91E646B2C4118A2F7B00E8BE2A7FD">
+						<Properties>
+							<Color3 name="Color3">
+								<R>0</R>
+								<G>0</G>
+								<B>0</B>
+							</Color3>
+							<token name="Face">2</token>
+							<string name="Name">Back</string>
+							<float name="StudsPerTileU">8</float>
+							<float name="StudsPerTileV">8</float>
+							<BinaryString name="Tags"></BinaryString>
+							<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+							<float name="Transparency">0.899999976</float>
+						</Properties>
+					</Item>
+					<Item class="Texture" referent="RBXE979D610A6E244C9A7DC56695F2F5B07">
+						<Properties>
+							<Color3 name="Color3">
+								<R>0</R>
+								<G>0</G>
+								<B>0</B>
+							</Color3>
+							<token name="Face">4</token>
+							<string name="Name">Bottom</string>
+							<float name="StudsPerTileU">8</float>
+							<float name="StudsPerTileV">8</float>
+							<BinaryString name="Tags"></BinaryString>
+							<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+							<float name="Transparency">0.899999976</float>
+						</Properties>
+					</Item>
+					<Item class="Texture" referent="RBX64917BFC46D040B4BCB7D15F1A236987">
+						<Properties>
+							<Color3 name="Color3">
+								<R>0</R>
+								<G>0</G>
+								<B>0</B>
+							</Color3>
+							<token name="Face">5</token>
+							<string name="Name">Front</string>
+							<float name="StudsPerTileU">8</float>
+							<float name="StudsPerTileV">8</float>
+							<BinaryString name="Tags"></BinaryString>
+							<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+							<float name="Transparency">0.899999976</float>
+						</Properties>
+					</Item>
+					<Item class="Texture" referent="RBX8517AB7160DF4678893EB7DA2E850C3A">
+						<Properties>
+							<Color3 name="Color3">
+								<R>0</R>
+								<G>0</G>
+								<B>0</B>
+							</Color3>
+							<token name="Face">3</token>
+							<string name="Name">Left</string>
+							<float name="StudsPerTileU">8</float>
+							<float name="StudsPerTileV">8</float>
+							<BinaryString name="Tags"></BinaryString>
+							<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+							<float name="Transparency">0.899999976</float>
+						</Properties>
+					</Item>
+					<Item class="Texture" referent="RBX86F595B8A7984CF19EE683BB920D7D02">
+						<Properties>
+							<Color3 name="Color3">
+								<R>0</R>
+								<G>0</G>
+								<B>0</B>
+							</Color3>
+							<token name="Face">0</token>
+							<string name="Name">Right</string>
+							<float name="StudsPerTileU">8</float>
+							<float name="StudsPerTileV">8</float>
+							<BinaryString name="Tags"></BinaryString>
+							<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+							<float name="Transparency">0.899999976</float>
+						</Properties>
+					</Item>
+					<Item class="Texture" referent="RBX570A7FC101AC49BBACA1BAC35FC78C83">
+						<Properties>
+							<Color3 name="Color3">
+								<R>0</R>
+								<G>0</G>
+								<B>0</B>
+							</Color3>
+							<token name="Face">1</token>
+							<string name="Name">Top</string>
+							<float name="StudsPerTileU">8</float>
+							<float name="StudsPerTileV">8</float>
+							<BinaryString name="Tags"></BinaryString>
+							<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+							<float name="Transparency">0.899999976</float>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="Part" referent="RBXC5B953B8A42244C486D9D0632872D1B6">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<CoordinateFrame name="CFrame">
+							<X>24</X>
+							<Y>-2</Y>
+							<Z>24</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<bool name="CastShadow">true</bool>
+						<int name="CollisionGroupId">0</int>
+						<Color3uint8 name="Color3uint8">4289769658</Color3uint8>
+						<PhysicalProperties name="CustomPhysicalProperties">
+							<CustomPhysics>false</CustomPhysics>
+						</PhysicalProperties>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<bool name="Massless">false</bool>
+						<token name="Material">272</token>
+						<string name="Name">Baseplate</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<int name="RootPriority">0</int>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<BinaryString name="Tags"></BinaryString>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">1</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>48</X>
+							<Y>4</Y>
+							<Z>48</Z>
+						</Vector3>
+					</Properties>
+					<Item class="Texture" referent="RBX8862F0AACA3C49F69897EFC7E635F0F7">
+						<Properties>
+							<Color3 name="Color3">
+								<R>0</R>
+								<G>0</G>
+								<B>0</B>
+							</Color3>
+							<token name="Face">2</token>
+							<string name="Name">Back</string>
+							<float name="StudsPerTileU">8</float>
+							<float name="StudsPerTileV">8</float>
+							<BinaryString name="Tags"></BinaryString>
+							<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+							<float name="Transparency">0.899999976</float>
+						</Properties>
+					</Item>
+					<Item class="Texture" referent="RBXA929CFA067DE4F7D91A9943BEF16AD19">
+						<Properties>
+							<Color3 name="Color3">
+								<R>0</R>
+								<G>0</G>
+								<B>0</B>
+							</Color3>
+							<token name="Face">4</token>
+							<string name="Name">Bottom</string>
+							<float name="StudsPerTileU">8</float>
+							<float name="StudsPerTileV">8</float>
+							<BinaryString name="Tags"></BinaryString>
+							<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+							<float name="Transparency">0.899999976</float>
+						</Properties>
+					</Item>
+					<Item class="Texture" referent="RBXAEE1758B45304D6A844493D0D3E58BC1">
+						<Properties>
+							<Color3 name="Color3">
+								<R>0</R>
+								<G>0</G>
+								<B>0</B>
+							</Color3>
+							<token name="Face">5</token>
+							<string name="Name">Front</string>
+							<float name="StudsPerTileU">8</float>
+							<float name="StudsPerTileV">8</float>
+							<BinaryString name="Tags"></BinaryString>
+							<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+							<float name="Transparency">0.899999976</float>
+						</Properties>
+					</Item>
+					<Item class="Texture" referent="RBX19DF6EBA596A4F9195E616CA81E96766">
+						<Properties>
+							<Color3 name="Color3">
+								<R>0</R>
+								<G>0</G>
+								<B>0</B>
+							</Color3>
+							<token name="Face">3</token>
+							<string name="Name">Left</string>
+							<float name="StudsPerTileU">8</float>
+							<float name="StudsPerTileV">8</float>
+							<BinaryString name="Tags"></BinaryString>
+							<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+							<float name="Transparency">0.899999976</float>
+						</Properties>
+					</Item>
+					<Item class="Texture" referent="RBX4813A0AC5704485DBBF027C14CC106FE">
+						<Properties>
+							<Color3 name="Color3">
+								<R>0</R>
+								<G>0</G>
+								<B>0</B>
+							</Color3>
+							<token name="Face">0</token>
+							<string name="Name">Right</string>
+							<float name="StudsPerTileU">8</float>
+							<float name="StudsPerTileV">8</float>
+							<BinaryString name="Tags"></BinaryString>
+							<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+							<float name="Transparency">0.899999976</float>
+						</Properties>
+					</Item>
+					<Item class="Texture" referent="RBX4E82AF8ADC85496DA20070887B6B9BDC">
+						<Properties>
+							<Color3 name="Color3">
+								<R>0</R>
+								<G>0</G>
+								<B>0</B>
+							</Color3>
+							<token name="Face">1</token>
+							<string name="Name">Top</string>
+							<float name="StudsPerTileU">8</float>
+							<float name="StudsPerTileV">8</float>
+							<BinaryString name="Tags"></BinaryString>
+							<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+							<float name="Transparency">0.899999976</float>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="Part" referent="RBX3021EFB8C9E94D63B44613BD2855CF49">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<CoordinateFrame name="CFrame">
+							<X>24</X>
+							<Y>-2</Y>
+							<Z>-24</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<bool name="CastShadow">true</bool>
+						<int name="CollisionGroupId">0</int>
+						<Color3uint8 name="Color3uint8">4288651692</Color3uint8>
+						<PhysicalProperties name="CustomPhysicalProperties">
+							<CustomPhysics>false</CustomPhysics>
+						</PhysicalProperties>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<bool name="Massless">false</bool>
+						<token name="Material">272</token>
+						<string name="Name">Baseplate</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<int name="RootPriority">0</int>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<BinaryString name="Tags"></BinaryString>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">1</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>48</X>
+							<Y>4</Y>
+							<Z>48</Z>
+						</Vector3>
+					</Properties>
+					<Item class="Texture" referent="RBX62A57846916544EBAA473EF522622952">
+						<Properties>
+							<Color3 name="Color3">
+								<R>0</R>
+								<G>0</G>
+								<B>0</B>
+							</Color3>
+							<token name="Face">2</token>
+							<string name="Name">Back</string>
+							<float name="StudsPerTileU">8</float>
+							<float name="StudsPerTileV">8</float>
+							<BinaryString name="Tags"></BinaryString>
+							<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+							<float name="Transparency">0.899999976</float>
+						</Properties>
+					</Item>
+					<Item class="Texture" referent="RBXF814590123084869A8B7CB5BFBEE4B24">
+						<Properties>
+							<Color3 name="Color3">
+								<R>0</R>
+								<G>0</G>
+								<B>0</B>
+							</Color3>
+							<token name="Face">4</token>
+							<string name="Name">Bottom</string>
+							<float name="StudsPerTileU">8</float>
+							<float name="StudsPerTileV">8</float>
+							<BinaryString name="Tags"></BinaryString>
+							<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+							<float name="Transparency">0.899999976</float>
+						</Properties>
+					</Item>
+					<Item class="Texture" referent="RBXC8FF591DE3CB4D599897DE09335635F6">
+						<Properties>
+							<Color3 name="Color3">
+								<R>0</R>
+								<G>0</G>
+								<B>0</B>
+							</Color3>
+							<token name="Face">5</token>
+							<string name="Name">Front</string>
+							<float name="StudsPerTileU">8</float>
+							<float name="StudsPerTileV">8</float>
+							<BinaryString name="Tags"></BinaryString>
+							<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+							<float name="Transparency">0.899999976</float>
+						</Properties>
+					</Item>
+					<Item class="Texture" referent="RBX69149F13ACCC40E4A0F296D1F660D61B">
+						<Properties>
+							<Color3 name="Color3">
+								<R>0</R>
+								<G>0</G>
+								<B>0</B>
+							</Color3>
+							<token name="Face">3</token>
+							<string name="Name">Left</string>
+							<float name="StudsPerTileU">8</float>
+							<float name="StudsPerTileV">8</float>
+							<BinaryString name="Tags"></BinaryString>
+							<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+							<float name="Transparency">0.899999976</float>
+						</Properties>
+					</Item>
+					<Item class="Texture" referent="RBX9522518BAD844E30AAAC9D2D699B8E7F">
+						<Properties>
+							<Color3 name="Color3">
+								<R>0</R>
+								<G>0</G>
+								<B>0</B>
+							</Color3>
+							<token name="Face">0</token>
+							<string name="Name">Right</string>
+							<float name="StudsPerTileU">8</float>
+							<float name="StudsPerTileV">8</float>
+							<BinaryString name="Tags"></BinaryString>
+							<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+							<float name="Transparency">0.899999976</float>
+						</Properties>
+					</Item>
+					<Item class="Texture" referent="RBXFE37BA8E5FE540B3AA8FEF238465C2FD">
+						<Properties>
+							<Color3 name="Color3">
+								<R>0</R>
+								<G>0</G>
+								<B>0</B>
+							</Color3>
+							<token name="Face">1</token>
+							<string name="Name">Top</string>
+							<float name="StudsPerTileU">8</float>
+							<float name="StudsPerTileV">8</float>
+							<BinaryString name="Tags"></BinaryString>
+							<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+							<float name="Transparency">0.899999976</float>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="Part" referent="RBXC858519E185B4A84B7B9CA8FD0BD1037">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<CoordinateFrame name="CFrame">
+							<X>0</X>
+							<Y>-2</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<bool name="CastShadow">false</bool>
+						<int name="CollisionGroupId">0</int>
+						<Color3uint8 name="Color3uint8">4294928076</Color3uint8>
+						<PhysicalProperties name="CustomPhysicalProperties">
+							<CustomPhysics>false</CustomPhysics>
+						</PhysicalProperties>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<bool name="Massless">false</bool>
+						<token name="Material">272</token>
+						<string name="Name">BoundingBox</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<int name="RootPriority">0</int>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<BinaryString name="Tags"></BinaryString>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">1</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">1</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>96</X>
+							<Y>4</Y>
+							<Z>96</Z>
+						</Vector3>
+					</Properties>
+				</Item>
+				<Item class="PackageLink" referent="RBXF2C36EA36C4E444DAB1EE0BF23306D69">
+					<Properties>
+						<bool name="AutoUpdate">true</bool>
+						<string name="Name">PackageLink</string>
+						<int64 name="OriginalHash">5678075110190399089</int64>
+						<Content name="PackageIdSerialize"><url>rbxassetid://3304640366</url></Content>
+						<string name="SymbolicLink"></string>
+						<BinaryString name="Tags"></BinaryString>
+						<int64 name="VersionIdSerialize">4</int64>
+					</Properties>
+				</Item>
 			</Item>
-			<Item class="Texture" referent="RBX30ED405013424156BA43C2BEA5AC844A">
+		</Item>
+		<Item class="ModuleScript" referent="RBXBCD91240B0AA4DBA8BD64BFF2AA6D9ED">
+			<Properties>
+				<Content name="LinkedSource"><null></null></Content>
+				<string name="Name">RichText</string>
+				<string name="ScriptGuid">{84A9FDCD-3E2C-46BF-A1DE-7B2888124594}</string>
+				<ProtectedString name="Source"><![CDATA[--[[
+	
+Rich text markup with support for modifying any TextLabel property per character + inline images + entrance animations
+
+Written by Defaultio ~ August 30 2017
+
+Changes:	
+	October 21 2017 - Unicode support added thanks to Tiffany Bennett - https://gist.github.com/tiffany352/ccb3559738f4e8d4152d940126998c41
+	January 29 2017 - Added finishAnimate parameter to RichTextObject:Show() function
+					- Fixed bug on iOS devices causing some characters to fail to appear. Using TextWrapped = false on character labels fixed this, thanks Buildthomas.
+
+
+			TODO:
+				- exit animations
+				- emphasis animations
+				- support for inline buttons
+				- sounds for each text step
+				- markup events that will fire a callback provided in the constructor when the text animation is reached, use for character animations, etc
+			
+			Let me know if these features will be useful and I'll add them more quickly.
+
+___________________________________________________________________________________________________________________
+
+API:
+
+Constructor:
+
+	RichText:New(GuiObject frame, String text, Dictionary startingProperties = {}, Boolean allowOverflow = true)
+		frame: the parent frame which will be populated with text
+		text: self explanitory
+		startingProperties: a dictionary of what the default text properties should be
+		allowOverflow: if false, text will stop rendering when it fills the vertical height of the frame. To continue the text in another frame, see RichText:ContinueOverflow() below...
+		
+		returns: richText object
+			
+	RichText:ContinueOverflow(GuiObject nextFrame, RichTextObject previousRichTextObject)
+		nextFrame: the parent frame that text will continue into
+		previousRichTextObject: the previous RichTextObject that is being overflown from.
+		
+		returns: richTextObject
+	
+			
+RichText Object: (returned by constructor)
+
+	RichTextObject:Animate(doYield = false)
+		Will run the animation. If doYield is true, the thread will yield until the animation is complete. Else, it will wrap the animation function in a coroutine
+		
+	RichTextObject:Show(finishAnimation = false)
+		Shows the entirety of the text body. Will interrupt and stop the animation if it's running. if finishAnimation is true, the remaining text will animate in instead of appearing instantly.
+		
+	RichTextObject:Hide()
+		Hides the text body. Will interrupt and stop the animation if it's running. The animation can be replayed after hiding.
+		
+	
+	Vector2 RichTextObject.ContentSize
+		Content size in pixels
+		
+	Boolean RichTextObject.Overflown
+		If allowOverflow was false, this value shows if the text is overflown or if it fit in the frame. If overflown, use RichText:ContinueOverflow to continue into a new frame.
+		
+
+
+___________________________________________________________________________________________________________________
+
+USAGE:
+
+The text supplied in the constructor can be any text string. Insert a markup modifier by including <MarkupKey=MarkupValue>. No spaces.
+
+	Examples of what this looks like include:
+		<Font=ArialBold> --Set the font to ArialBold
+		<Img=639588687> -- Insert an inline image with this ID
+		<AnimateStepTime=0.4> -- Set the animate step time to 0.4 seconds.
+		<AnimateYield=1> -- Yield for one second at this point in the animation
+		<TextColor3=1,0,0> -- Set text color to red
+		<Color=Red> -- Equivalent to above. The shortcut for the property name is defined in the propertyShortcuts table, and the color shortcut is defined in the colors table.
+		
+	After you set any markup value, you can revert it back to default later by setting it to "/". For example:
+		<Font=/>
+		<AnimateStepTime=/>
+		<Color=/>
+		
+	Default values are defined by values in the "default" table below, or by values supplied in the startingProperties dictionary when the object is constructed.
+
+Currently does not support escapement characters for < and >, so you can't use these characters in the text string.
+
+
+To when using RichText:ContinueOverflow, calling Animate(), Show(), or Hide() on the initial RichText object will pass this call onto subsequent overflown rich text objects, so
+only a call to the first object is neccessary. See example.
+
+___________________________________________________________________________________________________________________
+
+Example code:
+
+	local richText = require(richTextModule)
+	local text = "Hello world!\nLine two! <AnimateDelay=1><Img=Thinking>"
+	local textObject = richText:New(frame, text)
+	textObject:Animate(true)
+	print("Animation done!")
+
+
+Example string 1: Basic
+
+	local text = "<Font=SourceSansBold><TextScale=0.3>Oh!<TextScale=/><Font=/><AnimateYield=1> I didn't see you there<AnimateStepFrequency=1><AnimateStepTime=0.4> . . .<AnimateStepFrequency=/><AnimateStepTime=/>\n I wasn't expecting <Color=255,0,0>you<Color=/>. Please forgive the state of my room.<AnimateYield=1><Img=639588687>"
+	
+	--This yields this result: https://twitter.com/Defaultio/status/903094769617747968
+
+
+Example string 2: Wind Waker
+
+	Insert the WindWakerExample ScreenGui in this module into StarterGui.
+	Insert this module into WindWakerExample.
+	Ensure WindWakerExample.LocalText is not Disabled.
+	
+	-- This yields this result: https://twitter.com/Defaultio/status/903138250054709248
+	
+	
+Example string 3: Text-in animations
+
+	local text = "This text is about to be <Color=Green><AnimateStyle=Wiggle><AnimateStepFrequency=1><AnimateStyleTime=2>wiggly<AnimateStyle=/><AnimateStepFrequency=/><AnimateStyleTime=/><Color=/>!<AnimateYield=1.5>\nIt can also be <Color=Red><AnimateStyle=Fade><AnimateStepFrequency=1><AnimateStyleTime=0.5>fadey fadey<AnimateStyle=/><AnimateStepFrequency=/><AnimateStyleTime=/><Color=/>!<AnimateYield=1>\n<AnimateStyle=Rainbow><AnimateStyleTime=2>Or rainbow!!! :O<AnimateStyle=/><AnimateStyleTime=/><AnimateYield=1>\n<AnimateStyle=Swing><AnimateStyleTime=3>Make custom animations!"
+	
+	-- This yields this result: https://twitter.com/Defaultio/status/903346975688425472
+	
+	
+Example string 4: Variable text justification per line
+
+	local text = "Have you ever <Color=Red>thought<Color=/><AnimateStepFrequency=1><AnimateStepTime=0.4> . . .<AnimateStepFrequency=/><AnimateStepTime=/><AnimateYield=1><ContainerHorizontalAlignment=Center>\n<TextScale=0.5><AnimateStyle=Rainbow><AnimateStyleTime=2.5><Img=Thinking><AnimateStyle=/><TextScale=/><AnimateYield=3><ContainerHorizontalAlignment=Right>\n<Color=Green><AnimateStyle=Spin><AnimateStyleTime=1.5>Wow<AnimateStyle=/><Color=/>!"
+
+	-- This yields this result: https://twitter.com/Defaultio/status/903381787467956224
+
+Example 5: Overflowing
+
+	Insert the OverflowingExample ScreenGui in this module into StarterGui.
+	Inert this module into the OverflowingExample ScreenGui.
+	Ensure OverflowingExample.LocalText is not disabled.
+	
+	-- This yields this result: https://twitter.com/Defaultio/status/918619989107621888
+
+___________________________________________________________________________________________________________________	
+	
+--]]
+
+local richText = {}
+
+--------- SHORTCUTS ---------
+
+-- Color shortcuts: you can use these strings instead of full property names
+local propertyShortcuts = {}
+propertyShortcuts.Color = "TextColor3"
+propertyShortcuts.StrokeColor = "TextStrokeColor3"
+propertyShortcuts.ImageColor = "ImageColor3"
+
+-- Color shortcuts: you can use these strings instead of defining exact color values
+richText.ColorShortcuts = {}
+richText.ColorShortcuts.White = Color3.new(1, 1, 1)
+richText.ColorShortcuts.Black = Color3.new(0, 0, 0)
+richText.ColorShortcuts.Red = Color3.new(1, 0.4, 0.4)
+richText.ColorShortcuts.Green = Color3.new(0.4, 1, 0.4)
+richText.ColorShortcuts.Blue = Color3.new(0.4, 0.4, 1)
+richText.ColorShortcuts.Cyan = Color3.new(0.4, 0.85, 1)
+richText.ColorShortcuts.Orange = Color3.new(1, 0.5, 0.2)
+richText.ColorShortcuts.Yellow = Color3.new(1, 0.9, 0.2)
+
+-- Image shortcuts: you can use these string instead of using image ids
+richText.ImageShortcuts = {}
+richText.ImageShortcuts.Eggplant = 639588687
+richText.ImageShortcuts.Thinking = 955646496
+richText.ImageShortcuts.Sad = 947900188
+richText.ImageShortcuts.Happy = 414889555
+richText.ImageShortcuts.Despicable = 711674643
+
+--------- DEFAULTS ---------
+
+local defaults = {}
+
+--Text alignment default properties
+defaults.ContainerHorizontalAlignment = "Left" -- Align,ent of text within frame container
+defaults.ContainerVerticalAlignment = "Center" 
+defaults.TextYAlignment = "Bottom" -- Alignment of the text on the line, only makes a difference if the line has variable text sizes
+
+-- Text size default properties
+defaults.TextScaled = true
+defaults.TextScaleRelativeTo = "Frame" -- "Frame" or "Screen" If Frame, will scale relative to vertical size of the parent frame. If Screen, will scale relative to vertical size of the ScreenGui.
+defaults.TextScale = 0.25 -- If you want the frame to have a nominal count of n lines of text, make this value 1 / n. For four lines, 1 / 4 = 0.25.
+defaults.TextSize = 20 -- Only applicable if TextScaled = false
+
+-- TextLabel default properties
+defaults.Font = "SourceSans"
+defaults.TextColor3 = "White"
+defaults.TextStrokeColor3 = "Black"
+defaults.TextTransparency = 0
+defaults.TextStrokeTransparency = 1
+defaults.BackgroundTransparency = 1
+defaults.BorderSizePixel = 0
+
+-- Image label default properties
+defaults.ImageColor3 = "White"
+defaults.ImageTransparency = 0
+defaults.ImageRectOffset = "0,0"
+defaults.ImageRectSize = "0,0"
+
+-- Text animation default properties
+	-- character appearance timing:
+defaults.AnimateStepTime = 0 -- Seconds between newframes
+defaults.AnimateStepGrouping = "Letter" -- "Word" or "Letter" or "All"
+defaults.AnimateStepFrequency = 4 -- How often to step, 1 is all, 2 is step in pairs, 3 is every three, etc.
+	-- yielding:
+defaults.AnimateYield = 0 -- Set this markup to yield
+	-- entrance style parameters:
+defaults.AnimateStyle = "Appear"
+defaults.AnimateStyleTime = 0.5 -- How long it takes for an entrance style to fully execute
+defaults.AnimateStyleNumPeriods = 3 -- Used differently for each entrance style
+defaults.AnimateStyleAmplitude = 0.5 -- Used differently for each entrance style
+
+
+--------- ENTRANCE ANIMATION FUNCTIONS ---------
+
+-- These are functions responsible for animating how text enters. The functions are passed:
+	-- characters: A list of the characters to be animated.
+	-- animateAlpha: A value of 0 - 1 that represents the lifetime of the animation
+	-- properties: A dictionary of all the properties at that character, including InitialSize and InitialPosition
+	
+local animationStyles = {}
+
+function animationStyles.Appear(character)
+	character.Visible = true
+end
+
+function animationStyles.Fade(character, animateAlpha, properties)
+	character.Visible = true
+	if character:IsA("TextLabel") then
+		character.TextTransparency = 1 - (animateAlpha * (1 - properties.TextTransparency))
+	elseif character:IsA("ImageLabel") then
+		character.ImageTransparency = 1 - (animateAlpha * (1 - properties.ImageTransparency))
+	end
+end
+
+function animationStyles.Wiggle(character, animateAlpha, properties)
+	character.Visible = true
+	local amplitude = properties.InitialSize.Y.Offset * (1 - animateAlpha) * properties.AnimateStyleAmplitude
+	character.Position = properties.InitialPosition + UDim2.new(0, 0, 0, math.sin(animateAlpha * math.pi * 2 * properties.AnimateStyleNumPeriods) * amplitude / 2)
+end
+
+function animationStyles.Swing(character, animateAlpha, properties)
+	character.Visible = true
+	local amplitude = 90 * (1 - animateAlpha) * properties.AnimateStyleAmplitude
+	character.Rotation = math.sin(animateAlpha * math.pi * 2 * properties.AnimateStyleNumPeriods) * amplitude
+end
+
+function animationStyles.Spin(character, animateAlpha, properties)
+	character.Visible = true
+	character.Position = properties.InitialPosition + UDim2.new(0, properties.InitialSize.X.Offset / 2, 0, properties.InitialSize.Y.Offset / 2)
+	character.AnchorPoint = Vector2.new(0.5, 0.5)
+	character.Rotation = animateAlpha * properties.AnimateStyleNumPeriods * 360
+end
+
+function animationStyles.Rainbow(character, animateAlpha, properties)
+	character.Visible = true
+	local rainbowColor = Color3.fromHSV(animateAlpha * properties.AnimateStyleNumPeriods % 1, 1, 1)
+	if character:IsA("TextLabel") then
+		local initialColor = getColorFromString(properties.TextColor3)
+		character.TextColor3 = Color3.new(rainbowColor.r + animateAlpha * (initialColor.r - rainbowColor.r), rainbowColor.g + animateAlpha * (initialColor.g - rainbowColor.g), rainbowColor.b + animateAlpha * (initialColor.b - rainbowColor.b))
+	else
+		local initialColor = getColorFromString(properties.ImageColor3)
+		character.ImageColor3 = Color3.new(rainbowColor.r + animateAlpha * (initialColor.r - rainbowColor.r), rainbowColor.g + animateAlpha * (initialColor.g - rainbowColor.g), rainbowColor.b + animateAlpha * (initialColor.b - rainbowColor.b))
+	end
+end
+
+
+--------- MODULE BEGIN ---------
+
+local textService = game:GetService("TextService")
+local runService = game:GetService("RunService")
+local animationCount = 0
+
+function getLayerCollector(frame)
+	if not frame then
+		return nil
+	elseif frame:IsA("LayerCollector") then
+		return frame
+	elseif frame and frame.Parent then
+		return getLayerCollector(frame.Parent)
+	else
+		return nil
+	end
+end
+
+function shallowCopy(tab)
+	local ret = {}
+	for key, value in pairs(tab) do
+		ret[key] = value
+	end
+	return ret
+end
+
+function getColorFromString(value)
+	if richText.ColorShortcuts[value] then
+		 return richText.ColorShortcuts[value]
+	else
+		local r, g, b = value:match("(%d+),(%d+),(%d+)")
+		return Color3.new(r / 255, g / 255, b / 255)
+	end
+end
+
+function getVector2FromString(value)
+	local x, y = value:match("(%d+),(%d+)")
+	return Vector2.new(x, y)
+end
+
+function setHorizontalAlignment(frame, alignment)
+	if alignment == "Left" then
+		frame.AnchorPoint = Vector2.new(0, 0)
+		frame.Position = UDim2.new(0, 0, 0, 0)
+	elseif alignment == "Center" then
+		frame.AnchorPoint = Vector2.new(0.5, 0)
+		frame.Position = UDim2.new(0.5, 0, 0, 0)
+	elseif alignment == "Right" then
+		frame.AnchorPoint = Vector2.new(1, 0)
+		frame.Position = UDim2.new(1, 0, 0, 0)
+	end
+end
+
+function richText:New(frame, text, startingProperties, allowOverflow, prevTextObject)
+	for _, v in pairs(frame:GetChildren()) do
+		v:Destroy()
+	end
+	if allowOverflow == nil then
+		allowOverflow = true
+	end
+	
+	local properties = {}
+	local defaultProperties = {}
+	if prevTextObject then
+		text = prevTextObject.Text
+		startingProperties = prevTextObject.StartingProperties
+	end
+	
+	local lineFrames = {}
+	local textFrames = {}
+	local frameProperties = {}
+	local linePosition = 0
+	local overflown = false
+	local textLabel = Instance.new("TextLabel")
+	local imageLabel = Instance.new("ImageLabel")
+	local layerCollector = getLayerCollector(frame)
+	
+	local applyProperty, applyMarkup, formatLabel, printText, printImage, printSeries
+	
+	----- Apply properties / markups -----
+	function applyMarkup(key, value)
+		key = propertyShortcuts[key] or key
+		if value == "/" then
+			if defaultProperties[key] then
+				value = defaultProperties[key]
+			else
+				warn("Attempt to default <"..key.."> to value with no default")
+			end
+		end
+		if tonumber(value) then
+			value = tonumber(value)
+		elseif value == "false" or value == "true" then
+			value = value == "true"
+		end
+		properties[key] = value
+		
+		if applyProperty(key, value) then
+			-- Ok
+		elseif key == "ContainerHorizontalAlignment" and lineFrames[#lineFrames] then
+			setHorizontalAlignment(lineFrames[#lineFrames].Container, value)
+		elseif defaults[key] then
+			-- Ok
+		elseif key == "Img" then
+			printImage(value)
+		else
+			-- Unknown value
+			return false	
+		end
+		return true
+	end
+	
+	function applyProperty(name, value, frame)
+		local propertyType
+		local ret = false
+		for _, label in pairs(frame and {frame} or {textLabel, imageLabel}) do
+			local isProperty = pcall(function() propertyType = typeof(label[name]) end) -- is there a better way to check if it's a property?
+			if isProperty then
+				if propertyType == "Color3" then
+					label[name] = getColorFromString(value)
+				elseif propertyType == "Vector2" then
+					label[name] = getVector2FromString(value)
+				else
+					label[name] = value	
+				end
+				ret = true	
+			end
+		end
+		return ret
+	end
+	
+	----- Set up default properties -----
+	for name, value in pairs(defaults) do
+		applyMarkup(name, value)
+		defaultProperties[propertyShortcuts[name] or name] = properties[propertyShortcuts[name] or name]
+	end
+	for name, value in pairs(startingProperties or {}) do
+		applyMarkup(name, value)
+		defaultProperties[propertyShortcuts[name] or name] = properties[propertyShortcuts[name] or name]
+	end
+	
+	if prevTextObject then
+		properties = prevTextObject.OverflowPickupProperties
+		for name, value in pairs(properties) do
+			applyMarkup(name, value)
+		end
+	end
+	
+	----- Get vertical size -----
+	local function getTextSize()
+		if properties.TextScaled == true then
+			local relativeHeight
+			if properties.TextScaleRelativeTo == "Screen" then
+				relativeHeight = layerCollector.AbsoluteSize.Y
+			elseif properties.TextScaleRelativeTo == "Frame" then
+				relativeHeight = frame.AbsoluteSize.Y
+			end
+			return math.min(properties.TextScale * relativeHeight, 100)
+		else
+			return properties.TextSize
+		end
+	end
+	
+	----- Lines -----
+	local contentHeight = 0
+	local function newLine()
+		local lastLineFrame = lineFrames[#lineFrames]
+		if lastLineFrame then
+			contentHeight = contentHeight + lastLineFrame.Size.Y.Offset
+			if not allowOverflow and contentHeight + getTextSize() > frame.AbsoluteSize.Y then
+				overflown = true
+				return
+			end
+		end
+		local lineFrame = Instance.new("Frame")
+		lineFrame.Name = string.format("Line%03d", #lineFrames + 1)
+		lineFrame.Size = UDim2.new(0, 0, 0, 0)
+		lineFrame.BackgroundTransparency = 1		
+		local textContainer = Instance.new("Frame", lineFrame)
+		textContainer.Name = "Container"
+		textContainer.Size = UDim2.new(0, 0, 0, 0)
+		textContainer.BackgroundTransparency = 1
+		setHorizontalAlignment(textContainer, properties.ContainerHorizontalAlignment)
+		lineFrame.Parent = frame
+		table.insert(lineFrames, lineFrame)
+		textFrames[#lineFrames] = {}
+		linePosition = 0
+	end
+	newLine()
+	
+	----- Label printing -----
+	local function addFrameProperties(frame)
+		frameProperties[frame] = shallowCopy(properties)
+		frameProperties[frame].InitialSize = frame.Size
+		frameProperties[frame].InitialPosition = frame.Position
+		frameProperties[frame].InitialAnchorPoint = frame.AnchorPoint
+	end
+	
+	function formatLabel(newLabel, labelHeight, labelWidth, endOfLineCallback)
+		local lineFrame = lineFrames[#lineFrames]
+		
+		local verticalAlignment = tostring(properties.TextYAlignment)
+		if verticalAlignment  == "Top" then
+			newLabel.Position = UDim2.new(0, linePosition, 0, 0)
+			newLabel.AnchorPoint = Vector2.new(0, 0)
+		elseif verticalAlignment  == "Center" then
+			newLabel.Position = UDim2.new(0, linePosition, 0.5, 0)
+			newLabel.AnchorPoint = Vector2.new(0, 0.5)
+		elseif verticalAlignment  == "Bottom" then
+			newLabel.Position = UDim2.new(0, linePosition, 1, 0)
+			newLabel.AnchorPoint = Vector2.new(0, 1)
+		end
+		
+		linePosition = linePosition + labelWidth
+		if linePosition > frame.AbsoluteSize.X and not (linePosition == labelWidth) then
+			-- Newline, get rid of label and retry it on the next line
+			newLabel:Destroy()
+			local lastLabel = textFrames[#lineFrames][#textFrames[#lineFrames]]
+			if lastLabel:IsA("TextLabel") and lastLabel.Text == " " then -- get rid of trailing space
+				lineFrame.Container.Size = UDim2.new(0, linePosition - labelWidth - lastLabel.Size.X.Offset, 1, 0)
+				lastLabel:Destroy()
+				table.remove(textFrames[#lineFrames])
+			end
+			newLine()
+			endOfLineCallback()
+		else
+			-- Label is ok
+			newLabel.Size = UDim2.new(0, labelWidth, 0, labelHeight)
+			lineFrame.Container.Size = UDim2.new(0, linePosition, 1, 0)
+			lineFrame.Size = UDim2.new(1, 0, 0, math.max(lineFrame.Size.Y.Offset, labelHeight))
+			newLabel.Name = string.format("Group%03d", #textFrames[#lineFrames] + 1)
+			newLabel.Parent = lineFrame.Container
+			table.insert(textFrames[#lineFrames], newLabel)
+			addFrameProperties(newLabel)
+			properties.AnimateYield = 0
+		end
+	end
+	
+	function printText(text)
+		if text == "\n" then
+			newLine()
+			return
+		elseif text == " " and linePosition == 0 then
+			return -- no leading spaces
+		end
+		
+		local textSize = getTextSize()
+		local textWidth = textService:GetTextSize(text, textSize, textLabel.Font, Vector2.new(layerCollector.AbsoluteSize.X, textSize)).X
+		
+		local newTextLabel = textLabel:Clone()
+		newTextLabel.TextScaled = false
+		newTextLabel.TextSize = textSize
+		newTextLabel.Text = text -- This text is never actually displayed. We just use it as a reference for knowing what the group string is.
+		newTextLabel.TextTransparency = 1
+		newTextLabel.TextStrokeTransparency = 1
+		newTextLabel.TextWrapped = false
+		
+		-- Keep the real text in individual frames per character:
+		local charPos = 0
+		local i = 1
+		for first, last in utf8.graphemes(text) do
+			local character = string.sub(text, first, last)
+			local characterWidth = textService:GetTextSize(character, textSize, textLabel.Font, Vector2.new(layerCollector.AbsoluteSize.X, textSize)).X
+			local characterLabel = textLabel:Clone()
+			characterLabel.Text = character
+			characterLabel.TextScaled = false
+			characterLabel.TextSize = textSize
+			characterLabel.Position = UDim2.new(0, charPos, 0, 0)
+			characterLabel.Size = UDim2.new(0, characterWidth, 0, textSize)
+			characterLabel.Name = string.format("Char%03d", i)
+			characterLabel.Parent = newTextLabel
+			characterLabel.Visible = false
+			addFrameProperties(characterLabel)
+			charPos = charPos + characterWidth
+			i = i + 1
+		end
+
+		formatLabel(newTextLabel, textSize, textWidth, function() if not overflown then printText(text) end end)
+	end
+	
+	function printImage(imageId)
+		local imageHeight = getTextSize()
+		local imageWidth = imageHeight -- Would be nice if we could get aspect ratio of image to get width properly.
+		
+		local newImageLabel = imageLabel:Clone()
+		
+		if richText.ImageShortcuts[imageId] then
+			newImageLabel.Image = typeof(richText.ImageShortcuts[imageId]) == "number" and "rbxassetid://"..richText.ImageShortcuts[imageId] or richText.ImageShortcuts[imageId]
+		else
+			newImageLabel.Image = "rbxassetid://"..imageId
+		end
+		newImageLabel.Size = UDim2.new(0, imageHeight, 0, imageWidth)
+		newImageLabel.Visible = false
+
+		formatLabel(newImageLabel, imageHeight, imageWidth, function() if not overflown then printImage(imageId) end end)
+	end
+	
+	function printSeries(labelSeries)	
+		for _, t in pairs(labelSeries) do
+			local markupKey, markupValue = string.match(t, "<(.+)=(.+)>")
+			if markupKey and markupValue then
+				if not applyMarkup(markupKey, markupValue) then
+					warn("Could not apply markup: ", t)
+				end			
+			else
+				printText(t)
+			end
+		end	
+	end
+	
+	----- Text traversal + parsing -----
+	local overflowText
+	local textPos = 1
+	local textLength = #text
+	local labelSeries = {}
+	
+	if prevTextObject then
+		textPos = prevTextObject.OverflowPickupIndex
+	end
+	
+	while textPos and textPos <= textLength do
+		local nextMarkupStart, nextMarkupEnd = string.find(text, "<.->", textPos)
+		local nextSpaceStart, nextSpaceEnd = string.find(text, "[ \t\n]", textPos)
+		
+		local nextBreakStart, nextBreakEnd, breakIsWhitespace
+		if nextMarkupStart and nextMarkupEnd and (not nextSpaceStart or nextMarkupStart < nextSpaceStart) then
+			nextBreakStart, nextBreakEnd = nextMarkupStart, nextMarkupEnd
+		else
+			nextBreakStart, nextBreakEnd = nextSpaceStart or textLength + 1, nextSpaceEnd or textLength + 1
+			breakIsWhitespace = true
+		end
+		
+		local nextWord = nextBreakStart > textPos and string.sub(text, textPos, nextBreakStart - 1) or nil
+		local nextBreak = nextBreakStart <= textLength and string.sub(text, nextBreakStart, nextBreakEnd) or nil
+		table.insert(labelSeries, nextWord)
+		
+		if breakIsWhitespace then
+			printSeries(labelSeries)
+			if overflown then
+				break
+			end
+			printSeries({nextBreak})
+			if overflown then
+				textPos = nextBreakStart
+				break
+			end
+			labelSeries = {}
+		else
+			table.insert(labelSeries, nextBreak)
+		end
+		
+		textPos = nextBreakEnd + 1
+		--textPos = utf8.offset(text, 2, nextBreakEnd)
+	end
+	
+	if not overflown then
+		printSeries(labelSeries)
+	end
+
+	----- Alignment layout -----
+	local listLayout = Instance.new("UIListLayout")
+	listLayout.HorizontalAlignment = properties.ContainerHorizontalAlignment
+	listLayout.VerticalAlignment = properties.ContainerVerticalAlignment
+	listLayout.Parent = frame
+	
+	----- Calculate content size -----
+	local contentHeight = 0
+	local contentLeft = frame.AbsoluteSize.X
+	local contentRight = 0
+	for _, lineFrame in pairs(lineFrames) do
+		contentHeight = contentHeight + lineFrame.Size.Y.Offset
+		local container = lineFrame.Container
+		local left, right
+		if container.AnchorPoint.X == 0 then
+			left = container.Position.X.Offset
+			right = container.Size.X.Offset
+		elseif container.AnchorPoint.X == 0.5 then
+			left = lineFrame.AbsoluteSize.X / 2 - container.Size.X.Offset / 2
+			right = lineFrame.AbsoluteSize.X / 2 + container.Size.X.Offset / 2
+		elseif container.AnchorPoint.X == 1 then
+			left = lineFrame.AbsoluteSize.X - container.Size.X.Offset
+			right = lineFrame.AbsoluteSize.X
+		end
+		contentLeft = math.min(contentLeft, left)
+		contentRight = math.max(contentRight, right)
+	end
+	
+	----- Animation -----
+	animationCount = animationCount + 1
+	local animationDone = false
+	local allTextReached = false
+	local overrideYield = false
+	local animationRenderstepBinding = "TextAnimation"..animationCount
+	local animateQueue = {}
+	
+	local function updateAnimations()
+		if allTextReached and #animateQueue == 0 or animationDone then
+			animationDone = true
+			runService:UnbindFromRenderStep(animationRenderstepBinding)
+			animateQueue = {}
+			return
+		end
+
+		local t = tick()
+		for i = #animateQueue, 1, -1 do
+			local set = animateQueue[i]
+			local properties = set.Settings
+			local animateStyle = animationStyles[properties.AnimateStyle]
+			if not animateStyle then
+				warn("No animation style found for: ", properties.AnimateStyle, ", defaulting to Appear")
+				animateStyle = animationStyles.Appear
+			end
+			local animateAlpha = math.min((t - set.Start) / properties.AnimateStyleTime, 1)
+			animateStyle(set.Char, animateAlpha, properties) 
+			if animateAlpha >= 1 then
+				table.remove(animateQueue, i)
+			end
+		end
+	end
+	
+	local function setFrameToDefault(frame)
+		frame.Position = frameProperties[frame].InitialPosition
+		frame.Size = frameProperties[frame].InitialSize
+		frame.AnchorPoint = frameProperties[frame].InitialAnchorPoint
+		for name, value in pairs(frameProperties[frame]) do
+			applyProperty(name, value, frame)
+		end
+	end
+
+	local function setGroupVisible(frame, visible)
+		frame.Visible = visible
+		for _, v in pairs(frame:GetChildren()) do
+			v.Visible = visible
+			if visible then
+				setFrameToDefault(v)
+			end
+		end
+		if visible and frame:IsA("ImageLabel") then
+			setFrameToDefault(frame)
+		end
+	end
+
+	local function animate(waitForAnimationToFinish)
+		animationDone = false
+		runService:BindToRenderStep(animationRenderstepBinding, Enum.RenderPriority.Last.Value, updateAnimations)
+
+		local stepGrouping
+		local stepTime
+		local stepFrequency
+		local numAnimated
+		
+		-- Make everything invisible to start
+		for lineNum, list in pairs(textFrames) do
+			for _, frame in pairs(list) do
+				setGroupVisible(frame, false)
+			end
+		end
+	
+		local function animateCharacter(char, properties)
+			table.insert(animateQueue, {Char = char, Settings = properties, Start = tick()})
+		end
+		
+		local function yield()
+			if not overrideYield and numAnimated % stepFrequency == 0 and stepTime >= 0 then
+				local yieldTime = stepTime > 0 and stepTime or nil
+				wait(yieldTime)
+			end
+		end
+		
+		for lineNum, list in pairs(textFrames) do
+			for _, frame in pairs(list) do
+				local properties = frameProperties[frame]
+				if not (properties.AnimateStepGrouping  == stepGrouping) or not (properties.AnimateStepFrequency == stepFrequency) then
+					numAnimated = 0
+				end
+				stepGrouping = properties.AnimateStepGrouping
+				stepTime = properties.AnimateStepTime
+				stepFrequency = properties.AnimateStepFrequency
+			
+				if properties.AnimateYield > 0 then
+					wait(properties.AnimateYield)
+				end
+
+				if stepGrouping == "Word" or stepGrouping == "All" then
+					--if not (frame:IsA("TextLabel") and (frame.Text == " ")) then
+						if frame:IsA("TextLabel") then
+							frame.Visible = true
+							for _, v in pairs(frame:GetChildren()) do
+								animateCharacter(v, frameProperties[v])
+							end
+						else
+							animateCharacter(frame, properties)
+						end
+						if stepGrouping == "Word" then
+							numAnimated = numAnimated + 1
+							yield()
+						end
+					--end
+				elseif stepGrouping == "Letter" then
+					if frame:IsA("TextLabel") --[[and not (frame.Text == " ") ]]then
+						frame.Visible = true
+						local text = frame.Text
+						local i = 1
+						while true do
+							local v = frame:FindFirstChild(string.format("Char%03d", i))
+							if not v then
+								break
+							end
+							animateCharacter(v, frameProperties[v])
+							numAnimated = numAnimated + 1
+							yield()
+							if animationDone then
+								return
+							end
+							i = i + 1
+						end
+					else
+						animateCharacter(frame, properties)
+						numAnimated = numAnimated + 1
+						yield()
+					end
+				else
+					warn("Invalid step grouping: ", stepGrouping)
+				end
+				
+				if animationDone then
+					return
+				end
+			end
+		end
+			
+		allTextReached = true
+		
+		if waitForAnimationToFinish then
+			while #animateQueue > 0 do
+				runService.RenderStepped:Wait()
+			end
+		end	
+	end
+	
+
+
+	local textObject = {}
+	
+	----- Overflowing -----
+	
+	textObject.Overflown = overflown
+	textObject.OverflowPickupIndex = textPos
+	textObject.StartingProperties = startingProperties
+	textObject.OverflowPickupProperties = properties
+	textObject.Text = text
+
+	if prevTextObject then
+		prevTextObject.NextTextObject = textObject
+	end
+	
+	-- to overflow: check if textObject.Overflown, then use richText:ContinueOverflow(newFrame, textObject) to continue to another frame.
+	
+	
+	----- Return object API -----
+
+	textObject.ContentSize = Vector2.new(contentRight - contentLeft, contentHeight)
+
+	function textObject:Animate(yield)
+		if yield then
+			animate()
+		else
+			coroutine.wrap(animate)()
+		end
+		if self.NextTextObject then
+			self.NextTextObject:Animate(yield)
+		end
+	end
+	
+	function textObject:Show(finishAnimation)
+		if finishAnimation then
+			overrideYield = true
+		else
+			animationDone = true
+			for lineNum, list in pairs(textFrames) do
+				for _, frame in pairs(list) do
+					setGroupVisible(frame, true)
+				end
+			end
+		end
+		if self.NextTextObject then
+			self.NextTextObject:Show(finishAnimation)
+		end
+	end
+	
+	function textObject:Hide()
+		animationDone = true
+		for lineNum, list in pairs(textFrames) do
+			for _, frame in pairs(list) do
+				setGroupVisible(frame, false)
+			end
+		end
+		if self.NextTextObject then
+			self.NextTextObject:Hide()
+		end
+	end
+	
+	return textObject
+end
+
+
+function richText:ContinueOverflow(newFrame, prevTextObject)
+	return richText:New(newFrame, nil, nil, false, prevTextObject)
+end
+
+
+return richText
+]]></ProtectedString>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+			<Item class="ScreenGui" referent="RBX0FF2208F697A4B7E8B33255959645D90">
 				<Properties>
-					<Color3 name="Color3">
-						<R>0</R>
-						<G>0</G>
-						<B>0</B>
-					</Color3>
-					<token name="Face">4</token>
-					<string name="Name">Bottom</string>
-					<float name="StudsPerTileU">8</float>
-					<float name="StudsPerTileV">8</float>
+					<bool name="AutoLocalize">true</bool>
+					<int name="DisplayOrder">0</int>
+					<bool name="Enabled">false</bool>
+					<bool name="IgnoreGuiInset">false</bool>
+					<string name="Name">OverflowingExample</string>
+					<bool name="ResetOnSpawn">true</bool>
+					<Ref name="RootLocalizationTable">null</Ref>
 					<BinaryString name="Tags"></BinaryString>
-					<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
-					<float name="Transparency">0.899999976</float>
+					<token name="ZIndexBehavior">0</token>
 				</Properties>
-			</Item>
-			<Item class="Texture" referent="RBX1C26946452854F7A9A3355021B6C4EFA">
-				<Properties>
-					<Color3 name="Color3">
-						<R>0</R>
-						<G>0</G>
-						<B>0</B>
-					</Color3>
-					<token name="Face">5</token>
-					<string name="Name">Front</string>
-					<float name="StudsPerTileU">8</float>
-					<float name="StudsPerTileV">8</float>
-					<BinaryString name="Tags"></BinaryString>
-					<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
-					<float name="Transparency">0.899999976</float>
-				</Properties>
-			</Item>
-			<Item class="Texture" referent="RBX7B1F5D56558E4E3FA924ABDE0BE6B155">
-				<Properties>
-					<Color3 name="Color3">
-						<R>0</R>
-						<G>0</G>
-						<B>0</B>
-					</Color3>
-					<token name="Face">3</token>
-					<string name="Name">Left</string>
-					<float name="StudsPerTileU">8</float>
-					<float name="StudsPerTileV">8</float>
-					<BinaryString name="Tags"></BinaryString>
-					<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
-					<float name="Transparency">0.899999976</float>
-				</Properties>
-			</Item>
-			<Item class="Texture" referent="RBX5E0AA489E1374B9287209F202A7853DC">
-				<Properties>
-					<Color3 name="Color3">
-						<R>0</R>
-						<G>0</G>
-						<B>0</B>
-					</Color3>
-					<token name="Face">0</token>
-					<string name="Name">Right</string>
-					<float name="StudsPerTileU">8</float>
-					<float name="StudsPerTileV">8</float>
-					<BinaryString name="Tags"></BinaryString>
-					<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
-					<float name="Transparency">0.899999976</float>
-				</Properties>
-			</Item>
-			<Item class="Texture" referent="RBX320DD1A531F04A288FADB19156646313">
-				<Properties>
-					<Color3 name="Color3">
-						<R>0</R>
-						<G>0</G>
-						<B>0</B>
-					</Color3>
-					<token name="Face">1</token>
-					<string name="Name">Top</string>
-					<float name="StudsPerTileU">8</float>
-					<float name="StudsPerTileV">8</float>
-					<BinaryString name="Tags"></BinaryString>
-					<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
-					<float name="Transparency">0.899999976</float>
-				</Properties>
+				<Item class="LocalScript" referent="RBX5C116EA8715542609CD8676B719F02FC">
+					<Properties>
+						<bool name="Disabled">true</bool>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">LocalText</string>
+						<string name="ScriptGuid">{A05DE893-D28B-4DD8-8CC2-7366FD7EACB1}</string>
+						<ProtectedString name="Source"><![CDATA[wait(0.2)
+
+
+local richText = require(script.Parent:FindFirstChild("RichText") or script.Parent.Parent)
+script.Parent.Enabled = true
+
+local text = "He thinks about walking at night to avoid the heat and sun, but based upon how dark it actually was the night before, and given that he has no flashlight, he's afraid that he'll break a leg or step on a rattlesnake. <Color=Yellow>So, he puts on some sun block, puts the rest in his pocket for reapplication later, <Color=/>brings an umbrella he'd had in the back of the SUV with him to give him a little shade, pours the windshield wiper fluid into his water bottle in case he gets that desperate, brings his pocket knife in case he finds a cactus that looks like it might have water in it, and heads out in the direction he thinks is right."
+local textFrames = {script.Parent.Frame.TextBox1, script.Parent.Frame.TextBox2, script.Parent.Frame.TextBox3}
+
+local initialTextObject = richText:New(textFrames[1], text, {ContainerVerticalAlignment = "Top"}, false)
+local latestTextObject = initialTextObject
+
+for i = 2, #textFrames do
+	if latestTextObject.Overflown then
+		latestTextObject = richText:ContinueOverflow(textFrames[i], latestTextObject)
+	end
+end
+
+initialTextObject:Animate(true)
+]]></ProtectedString>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+				</Item>
+				<Item class="Frame" referent="RBX293E91733F424CA9B927DABDAAD6C337">
+					<Properties>
+						<bool name="Active">false</bool>
+						<Vector2 name="AnchorPoint">
+							<X>0.5</X>
+							<Y>0.5</Y>
+						</Vector2>
+						<bool name="AutoLocalize">true</bool>
+						<Color3 name="BackgroundColor3">
+							<R>0.737254918</R>
+							<G>0.627451003</G>
+							<B>0.517647088</B>
+						</Color3>
+						<float name="BackgroundTransparency">0</float>
+						<Color3 name="BorderColor3">
+							<R>0.105882362</R>
+							<G>0.164705887</G>
+							<B>0.207843155</B>
+						</Color3>
+						<int name="BorderSizePixel">1</int>
+						<bool name="ClipsDescendants">false</bool>
+						<bool name="Draggable">false</bool>
+						<int name="LayoutOrder">0</int>
+						<string name="Name">Frame</string>
+						<Ref name="NextSelectionDown">null</Ref>
+						<Ref name="NextSelectionLeft">null</Ref>
+						<Ref name="NextSelectionRight">null</Ref>
+						<Ref name="NextSelectionUp">null</Ref>
+						<UDim2 name="Position">
+							<XS>0.5</XS>
+							<XO>0</XO>
+							<YS>0.5</YS>
+							<YO>0</YO>
+						</UDim2>
+						<Ref name="RootLocalizationTable">null</Ref>
+						<float name="Rotation">0</float>
+						<bool name="Selectable">false</bool>
+						<Ref name="SelectionImageObject">null</Ref>
+						<UDim2 name="Size">
+							<XS>0.400000006</XS>
+							<XO>0</XO>
+							<YS>0.800000012</YS>
+							<YO>0</YO>
+						</UDim2>
+						<token name="SizeConstraint">0</token>
+						<token name="Style">0</token>
+						<BinaryString name="Tags"></BinaryString>
+						<bool name="Visible">true</bool>
+						<int name="ZIndex">1</int>
+					</Properties>
+					<Item class="ImageLabel" referent="RBX4D702024471148AAA4E9EEBDECC3E143">
+						<Properties>
+							<bool name="Active">false</bool>
+							<Vector2 name="AnchorPoint">
+								<X>1</X>
+								<Y>0.5</Y>
+							</Vector2>
+							<bool name="AutoLocalize">true</bool>
+							<Color3 name="BackgroundColor3">
+								<R>1</R>
+								<G>1</G>
+								<B>1</B>
+							</Color3>
+							<float name="BackgroundTransparency">0.800000012</float>
+							<Color3 name="BorderColor3">
+								<R>0.105882362</R>
+								<G>0.164705887</G>
+								<B>0.207843155</B>
+							</Color3>
+							<int name="BorderSizePixel">0</int>
+							<bool name="ClipsDescendants">false</bool>
+							<bool name="Draggable">false</bool>
+							<Content name="Image"><url>rbxassetid://110562548</url></Content>
+							<Color3 name="ImageColor3">
+								<R>1</R>
+								<G>1</G>
+								<B>1</B>
+							</Color3>
+							<Vector2 name="ImageRectOffset">
+								<X>0</X>
+								<Y>0</Y>
+							</Vector2>
+							<Vector2 name="ImageRectSize">
+								<X>0</X>
+								<Y>0</Y>
+							</Vector2>
+							<float name="ImageTransparency">0</float>
+							<int name="LayoutOrder">0</int>
+							<string name="Name">ImageLabel</string>
+							<Ref name="NextSelectionDown">null</Ref>
+							<Ref name="NextSelectionLeft">null</Ref>
+							<Ref name="NextSelectionRight">null</Ref>
+							<Ref name="NextSelectionUp">null</Ref>
+							<UDim2 name="Position">
+								<XS>1</XS>
+								<XO>0</XO>
+								<YS>0.5</YS>
+								<YO>0</YO>
+							</UDim2>
+							<Ref name="RootLocalizationTable">null</Ref>
+							<float name="Rotation">0</float>
+							<token name="ScaleType">0</token>
+							<bool name="Selectable">false</bool>
+							<Ref name="SelectionImageObject">null</Ref>
+							<UDim2 name="Size">
+								<XS>0.474999994</XS>
+								<XO>0</XO>
+								<YS>0.333000004</YS>
+								<YO>0</YO>
+							</UDim2>
+							<token name="SizeConstraint">0</token>
+							<Rect2D name="SliceCenter">
+								<min>
+									<X>0</X>
+									<Y>0</Y>
+								</min>
+								<max>
+									<X>0</X>
+									<Y>0</Y>
+								</max>
+							</Rect2D>
+							<float name="SliceScale">1</float>
+							<BinaryString name="Tags"></BinaryString>
+							<UDim2 name="TileSize">
+								<XS>1</XS>
+								<XO>0</XO>
+								<YS>1</YS>
+								<YO>0</YO>
+							</UDim2>
+							<bool name="Visible">true</bool>
+							<int name="ZIndex">1</int>
+						</Properties>
+					</Item>
+					<Item class="Frame" referent="RBX7ADF686D44964B75A9CBAB6305830709">
+						<Properties>
+							<bool name="Active">false</bool>
+							<Vector2 name="AnchorPoint">
+								<X>0</X>
+								<Y>0</Y>
+							</Vector2>
+							<bool name="AutoLocalize">true</bool>
+							<Color3 name="BackgroundColor3">
+								<R>1</R>
+								<G>1</G>
+								<B>1</B>
+							</Color3>
+							<float name="BackgroundTransparency">1</float>
+							<Color3 name="BorderColor3">
+								<R>0.105882362</R>
+								<G>0.164705887</G>
+								<B>0.207843155</B>
+							</Color3>
+							<int name="BorderSizePixel">1</int>
+							<bool name="ClipsDescendants">false</bool>
+							<bool name="Draggable">false</bool>
+							<int name="LayoutOrder">0</int>
+							<string name="Name">TextBox1</string>
+							<Ref name="NextSelectionDown">null</Ref>
+							<Ref name="NextSelectionLeft">null</Ref>
+							<Ref name="NextSelectionRight">null</Ref>
+							<Ref name="NextSelectionUp">null</Ref>
+							<UDim2 name="Position">
+								<XS>0</XS>
+								<XO>0</XO>
+								<YS>0</YS>
+								<YO>0</YO>
+							</UDim2>
+							<Ref name="RootLocalizationTable">null</Ref>
+							<float name="Rotation">0</float>
+							<bool name="Selectable">false</bool>
+							<Ref name="SelectionImageObject">null</Ref>
+							<UDim2 name="Size">
+								<XS>1</XS>
+								<XO>0</XO>
+								<YS>0.333000004</YS>
+								<YO>0</YO>
+							</UDim2>
+							<token name="SizeConstraint">0</token>
+							<token name="Style">0</token>
+							<BinaryString name="Tags"></BinaryString>
+							<bool name="Visible">true</bool>
+							<int name="ZIndex">1</int>
+						</Properties>
+					</Item>
+					<Item class="Frame" referent="RBXCC2E8CB4C9404C9D9EBB79F3A8FD4D38">
+						<Properties>
+							<bool name="Active">false</bool>
+							<Vector2 name="AnchorPoint">
+								<X>0</X>
+								<Y>0</Y>
+							</Vector2>
+							<bool name="AutoLocalize">true</bool>
+							<Color3 name="BackgroundColor3">
+								<R>1</R>
+								<G>1</G>
+								<B>1</B>
+							</Color3>
+							<float name="BackgroundTransparency">1</float>
+							<Color3 name="BorderColor3">
+								<R>0.105882362</R>
+								<G>0.164705887</G>
+								<B>0.207843155</B>
+							</Color3>
+							<int name="BorderSizePixel">1</int>
+							<bool name="ClipsDescendants">false</bool>
+							<bool name="Draggable">false</bool>
+							<int name="LayoutOrder">0</int>
+							<string name="Name">TextBox2</string>
+							<Ref name="NextSelectionDown">null</Ref>
+							<Ref name="NextSelectionLeft">null</Ref>
+							<Ref name="NextSelectionRight">null</Ref>
+							<Ref name="NextSelectionUp">null</Ref>
+							<UDim2 name="Position">
+								<XS>0</XS>
+								<XO>0</XO>
+								<YS>0.333000004</YS>
+								<YO>0</YO>
+							</UDim2>
+							<Ref name="RootLocalizationTable">null</Ref>
+							<float name="Rotation">0</float>
+							<bool name="Selectable">false</bool>
+							<Ref name="SelectionImageObject">null</Ref>
+							<UDim2 name="Size">
+								<XS>0.5</XS>
+								<XO>0</XO>
+								<YS>0.333000004</YS>
+								<YO>0</YO>
+							</UDim2>
+							<token name="SizeConstraint">0</token>
+							<token name="Style">0</token>
+							<BinaryString name="Tags"></BinaryString>
+							<bool name="Visible">true</bool>
+							<int name="ZIndex">1</int>
+						</Properties>
+					</Item>
+					<Item class="Frame" referent="RBX270FA4F1B349404F81B9D34B94676F4F">
+						<Properties>
+							<bool name="Active">false</bool>
+							<Vector2 name="AnchorPoint">
+								<X>0</X>
+								<Y>0</Y>
+							</Vector2>
+							<bool name="AutoLocalize">true</bool>
+							<Color3 name="BackgroundColor3">
+								<R>1</R>
+								<G>1</G>
+								<B>1</B>
+							</Color3>
+							<float name="BackgroundTransparency">1</float>
+							<Color3 name="BorderColor3">
+								<R>0.105882362</R>
+								<G>0.164705887</G>
+								<B>0.207843155</B>
+							</Color3>
+							<int name="BorderSizePixel">1</int>
+							<bool name="ClipsDescendants">false</bool>
+							<bool name="Draggable">false</bool>
+							<int name="LayoutOrder">0</int>
+							<string name="Name">TextBox3</string>
+							<Ref name="NextSelectionDown">null</Ref>
+							<Ref name="NextSelectionLeft">null</Ref>
+							<Ref name="NextSelectionRight">null</Ref>
+							<Ref name="NextSelectionUp">null</Ref>
+							<UDim2 name="Position">
+								<XS>0</XS>
+								<XO>0</XO>
+								<YS>0.666999996</YS>
+								<YO>0</YO>
+							</UDim2>
+							<Ref name="RootLocalizationTable">null</Ref>
+							<float name="Rotation">0</float>
+							<bool name="Selectable">false</bool>
+							<Ref name="SelectionImageObject">null</Ref>
+							<UDim2 name="Size">
+								<XS>1</XS>
+								<XO>0</XO>
+								<YS>0.333000004</YS>
+								<YO>0</YO>
+							</UDim2>
+							<token name="SizeConstraint">0</token>
+							<token name="Style">0</token>
+							<BinaryString name="Tags"></BinaryString>
+							<bool name="Visible">true</bool>
+							<int name="ZIndex">1</int>
+						</Properties>
+					</Item>
+					<Item class="UIPadding" referent="RBXD5D2F29C7F814DB882C2AF5C1EDAABD0">
+						<Properties>
+							<string name="Name">UIPadding</string>
+							<UDim name="PaddingBottom">
+								<S>0.0500000007</S>
+								<O>0</O>
+							</UDim>
+							<UDim name="PaddingLeft">
+								<S>0.0500000007</S>
+								<O>0</O>
+							</UDim>
+							<UDim name="PaddingRight">
+								<S>0.0500000007</S>
+								<O>0</O>
+							</UDim>
+							<UDim name="PaddingTop">
+								<S>0.0500000007</S>
+								<O>0</O>
+							</UDim>
+							<BinaryString name="Tags"></BinaryString>
+						</Properties>
+					</Item>
+				</Item>
 			</Item>
 		</Item>
 	</Item>
@@ -471,6 +2336,348 @@ gameCore:load()]]></ProtectedString>
 					<string name="Name">module</string>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
+				<Item class="ModuleScript" referent="RBXD55C263523C3422C9A203BFD56FA5B53">
+					<Properties>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">GuiContainer</string>
+						<string name="ScriptGuid">{470E3115-2B4B-4667-9395-A7374FAB5367}</string>
+						<ProtectedString name="Source"><![CDATA[local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+
+local src = LocalPlayer:WaitForChild("PlayerScripts")
+local common = ReplicatedStorage:WaitForChild("common")
+local lib = ReplicatedStorage:WaitForChild("lib")
+
+local PizzaAlpaca = require(lib:WaitForChild("PizzaAlpaca"))
+local Roact = require(lib:WaitForChild("Roact"))
+local RoactRodux = lib:WaitForChild("RoactRodux")
+
+local uiComponents = script:WaitForChild("uiComponents")
+local App = require(uiComponents.App)
+
+local GuiContainer = PizzaAlpaca.GameModule:extend("GuiContainer")
+
+local function makeApp(store, clientApi)
+    return Roact.createElement(App, {
+        clientApi = clientApi
+    })
+end
+
+function GuiContainer:preInit()
+end
+
+function GuiContainer:init()
+    local playerGui = LocalPlayer:WaitForChild("PlayerGui")
+
+    Roact.setGlobalConfig({elementTracing = true})
+    self.appHandle = Roact.mount(makeApp(), playerGui)
+
+    print("ui mounted")
+end
+
+function GuiContainer:postInit()
+end
+
+return GuiContainer]]></ProtectedString>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+					<Item class="Folder" referent="RBXB93045E4BACD44A886AC5FF19540C355">
+						<Properties>
+							<string name="Name">uiComponents</string>
+							<BinaryString name="Tags"></BinaryString>
+						</Properties>
+						<Item class="ModuleScript" referent="RBXE1D7A44A75274AA0A9352A149D786610">
+							<Properties>
+								<Content name="LinkedSource"><null></null></Content>
+								<string name="Name">App</string>
+								<string name="ScriptGuid">{E6CE1D75-3531-468E-ADED-526D6EFA7065}</string>
+								<ProtectedString name="Source"><![CDATA[local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local common = ReplicatedStorage:WaitForChild("common")
+local lib = ReplicatedStorage:WaitForChild("lib")
+local uiComponents = script:FindFirstAncestor("uiComponents")
+
+
+local Roact = require(lib:WaitForChild("Roact"))
+
+local TextLabelList = require(uiComponents.TextLabelList)
+local RichTextMarkupFrame = require(uiComponents.RichTextMarkupFrame)
+
+local App = Roact.Component:extend("App")
+
+function App:init(initialProps)
+end
+
+function App:render()
+    local children = {}
+
+    children.labelsFrame = Roact.createElement(TextLabelList, {
+        Position = UDim2.new(0,30,0,30),
+        BackgroundTransparency = 1,
+
+        elementType = RichTextMarkupFrame,
+        elementProps = {
+
+        },
+        strings = {
+            "Hello world!~",
+            "Programmed to work and not to feel~",
+            "Not even sure that this is real~",
+            "Hello world!~",
+            "",
+            "Find my voice",
+            "Although it sounds like bits and bytes",
+            "My circuitry is filled with mites",
+            "Hello, world!~",
+            "",
+            "Oh, will I find a love",
+            "Oh, or a power plug",
+            "Oh, digitally isolated",
+            "Oh, creator, please don't leave me waiting~",
+            "",
+            "Hello world!~",
+            "Programmed to work and not to feel~",
+            "Not even sure that this is real~",
+            "Hello world!~",
+        }
+    })
+
+    return Roact.createElement("ScreenGui", {
+        Name = "gameGui",
+        ResetOnSpawn = false,
+        ZIndexBehavior = Enum.ZIndexBehavior.Sibling,
+    }, children)
+end
+
+return App]]></ProtectedString>
+								<BinaryString name="Tags"></BinaryString>
+							</Properties>
+						</Item>
+						<Item class="ModuleScript" referent="RBX3B7ED69F8FB04081BF8035CE1467D278">
+							<Properties>
+								<Content name="LinkedSource"><null></null></Content>
+								<string name="Name">AutoSizedTextElement</string>
+								<string name="ScriptGuid">{33CE3162-6488-423F-8D0A-B7BECC6DD679}</string>
+								<ProtectedString name="Source"><![CDATA[-- heavily borrows concepts and design from
+-- https://github.com/LPGhatguy/rojo/blob/master/plugin/src/Components/FitText.lua
+
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local TextService = game:GetService("TextService")
+
+local common = ReplicatedStorage:WaitForChild("common")
+local lib = ReplicatedStorage:WaitForChild("lib")
+local util = common:WaitForChild("util")
+
+local Dictionary = require(util.Dictionary)
+
+local Roact = require(lib:WaitForChild("Roact"))
+
+local AutoSizedTextElement = Roact.Component:extend("AutoSizedTextElement")
+
+local INF_VEC2 = Vector2.new(math.huge, math.huge)
+
+function AutoSizedTextElement:init(initialProps)
+    self.textSize, self.updateTextSize = Roact.createBinding(UDim2.new(0,0,0,0))
+end
+
+function AutoSizedTextElement:render()
+    local type = self.props.type or "TextLabel"
+
+    self.props.Font = self.props.Font or Enum.Font.GothamBlack
+    self.props.TextSize = self.props.TextSize or 16
+
+    local joinedProps = Dictionary.join(self.props, {
+        type = Dictionary.None,
+        Size = self.textSize,
+
+        [Roact.Event.Changed] = function(rbx, prop)
+            if prop == "Text" then
+                self:updateSizeBinding(rbx.Text or "   ")
+            end
+        end,
+    })
+
+    return Roact.createElement(type, joinedProps)
+end
+
+function AutoSizedTextElement:didMount()
+    self:updateSizeBinding(self.props.Text)
+end
+
+function AutoSizedTextElement:didUpdate()
+    self:updateSizeBinding(self.props.Text)
+end
+
+function AutoSizedTextElement:updateSizeBinding(text)
+    text = text or ""
+
+	local font = self.props.Font or Enum.Font.GothamBlack
+	local textSize = self.props.TextSize or 16
+
+	local textDimensions = TextService:GetTextSize(text, textSize, font, INF_VEC2)
+	local totalSize = UDim2.new(
+		0, textDimensions.X,
+		0, textDimensions.Y)
+
+	self.updateTextSize(totalSize)
+end
+
+return AutoSizedTextElement]]></ProtectedString>
+								<BinaryString name="Tags"></BinaryString>
+							</Properties>
+						</Item>
+						<Item class="ModuleScript" referent="RBXB46C8A8016D74B1F90340B57B6107441">
+							<Properties>
+								<Content name="LinkedSource"><null></null></Content>
+								<string name="Name">TextLabelList</string>
+								<string name="ScriptGuid">{0692C898-F7A4-4A25-B0E4-FFFDC0E13BC0}</string>
+								<ProtectedString name="Source"><![CDATA[local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local common = ReplicatedStorage:WaitForChild("common")
+local lib = ReplicatedStorage:WaitForChild("lib")
+local util = common:WaitForChild("util")
+local uiComponents = script:FindFirstAncestor("uiComponents")
+
+local Dictionary = require(util.Dictionary)
+
+local Roact = require(lib:WaitForChild("Roact"))
+
+local AutoSizedTextElement = require(uiComponents.AutoSizedTextElement)
+
+local TextLabelList = Roact.Component:extend("TextLabelList")
+
+function TextLabelList:init(initialProps)
+    self.contentSize, self.updateContentSize = Roact.createBinding(UDim2.new(0,0,0,0))
+    self.layoutRef = Roact.createRef()
+end
+
+function TextLabelList:render()
+    local textElements = {}
+
+    for idx,text in ipairs(self.props.strings) do
+        textElements[idx] = Roact.createElement(AutoSizedTextElement, Dictionary.join({
+            type = self.props.elementType or "TextLabel",
+            Text = text,
+            Font = Enum.Font.GothamBlack,
+            TextSize = 32,
+            BackgroundColor3 = Color3.fromRGB(255,255,255),
+            BorderSizePixel = 0,
+            LayoutOrder = idx,
+            TextXAlignment = Enum.TextXAlignment.Left,
+
+            ClearTextOnFocus = false,
+        }, self.props.elementProps or {}))
+    end
+
+    local layout = Roact.createElement("UIListLayout", {
+        SortOrder = Enum.SortOrder.LayoutOrder,
+        Padding = UDim.new(0,4),
+        [Roact.Ref] = self.layoutRef,
+    })
+
+    local joinedProps = Dictionary.join(self.props, {
+        elementType = Dictionary.None,
+        elementProps = Dictionary.None,
+        strings = Dictionary.None,
+        Size = self.elementsSize
+    })
+
+    local children = Dictionary.join(textElements,{layout = layout})
+
+    return Roact.createElement("Frame", joinedProps, children)
+end
+
+function TextLabelList:didMount()
+    self:updateSizeBinding()
+end
+
+function TextLabelList:didUpdate()
+    self:updateSizeBinding()
+end
+
+function TextLabelList:updateSizeBinding()
+    local layout = self.layoutRef:getValue()
+    if not layout then return end
+
+	local newContentSize = UDim2.new(
+		0, layout.AbsoluteContentSize.X,
+		0, layout.AbsoluteContentSize.Y)
+
+	self.updateContentSize(newContentSize)
+end
+
+return TextLabelList]]></ProtectedString>
+								<BinaryString name="Tags"></BinaryString>
+							</Properties>
+						</Item>
+						<Item class="ModuleScript" referent="RBX57F3A965BD334E159344F00A49B635FE">
+							<Properties>
+								<Content name="LinkedSource"><null></null></Content>
+								<string name="Name">RichTextMarkupFrame</string>
+								<string name="ScriptGuid">{7BAD4B88-9A4C-4C7D-84D8-CAF320D9E0C2}</string>
+								<ProtectedString name="Source"><![CDATA[-- break up a string into its words split by whitespace characters
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local common = ReplicatedStorage:WaitForChild("common")
+local lib = ReplicatedStorage:WaitForChild("lib")
+local util = common:WaitForChild("util")
+local uiComponents = script:FindFirstAncestor("uiComponents")
+
+local Dictionary = require(util.Dictionary)
+local RichText = require(lib.RichText)
+
+local Roact = require(lib:WaitForChild("Roact"))
+
+local RichTextMarkupFrame = Roact.Component:extend("RichTextMarkupFrame")
+
+function RichTextMarkupFrame:init(initialProps)
+    self.frameRef = Roact.createRef()
+end
+
+function RichTextMarkupFrame:render()
+
+    local joinedProps = Dictionary.join(self.props, {
+        Text = Dictionary.None,
+        [Roact.Ref] = self.frameRef,
+    })
+
+    return Roact.createElement("Frame", joinedProps)
+end
+
+function RichTextMarkupFrame:didMount()
+    local mountedFrame = self.frameRef:getValue()
+
+    if not mountedFrame then return end
+
+    self:setState({
+        textObject = RichText:New(
+            mountedFrame,
+            self.props.Text or "",
+            {
+                Font = self.props.Font or Enum.Font.GothamBlack,
+                TextSize = 16
+            }
+        )
+    })
+
+    self.state.textObject:Animate(true)
+end
+
+function RichTextMarkupFrame:willUnmount()
+    local textObject = self.state.textObject
+    if not textObject then return end
+
+    textObject:Hide()
+end
+
+
+return RichTextMarkupFrame]]></ProtectedString>
+								<BinaryString name="Tags"></BinaryString>
+							</Properties>
+						</Item>
+					</Item>
+				</Item>
 			</Item>
 		</Item>
 		<Item class="StarterCharacterScripts" referent="RBXBD928EEC970A4006B1700CC359660FAE">
@@ -494,6 +2701,1239 @@ gameCore:load()]]></ProtectedString>
 			<bool name="ShowDevelopmentGui">true</bool>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
+		<Item class="ScreenGui" referent="RBX4603AA32FD7C4C868FA34B3B9AF61828">
+			<Properties>
+				<bool name="AutoLocalize">true</bool>
+				<int name="DisplayOrder">0</int>
+				<bool name="Enabled">false</bool>
+				<bool name="IgnoreGuiInset">false</bool>
+				<string name="Name">WindWakerExample</string>
+				<bool name="ResetOnSpawn">true</bool>
+				<Ref name="RootLocalizationTable">null</Ref>
+				<BinaryString name="Tags"></BinaryString>
+				<token name="ZIndexBehavior">0</token>
+			</Properties>
+			<Item class="ImageLabel" referent="RBXB226276CA4664D78AC56E42C0C733C94">
+				<Properties>
+					<bool name="Active">false</bool>
+					<Vector2 name="AnchorPoint">
+						<X>0.5</X>
+						<Y>0.5</Y>
+					</Vector2>
+					<bool name="AutoLocalize">true</bool>
+					<Color3 name="BackgroundColor3">
+						<R>1</R>
+						<G>1</G>
+						<B>1</B>
+					</Color3>
+					<float name="BackgroundTransparency">1</float>
+					<Color3 name="BorderColor3">
+						<R>0.105882362</R>
+						<G>0.164705887</G>
+						<B>0.207843155</B>
+					</Color3>
+					<int name="BorderSizePixel">1</int>
+					<bool name="ClipsDescendants">false</bool>
+					<bool name="Draggable">false</bool>
+					<Content name="Image"><url>rbxassetid://1014927013</url></Content>
+					<Color3 name="ImageColor3">
+						<R>1</R>
+						<G>1</G>
+						<B>1</B>
+					</Color3>
+					<Vector2 name="ImageRectOffset">
+						<X>0</X>
+						<Y>0</Y>
+					</Vector2>
+					<Vector2 name="ImageRectSize">
+						<X>0</X>
+						<Y>0</Y>
+					</Vector2>
+					<float name="ImageTransparency">0</float>
+					<int name="LayoutOrder">0</int>
+					<string name="Name">Dialogue</string>
+					<Ref name="NextSelectionDown">null</Ref>
+					<Ref name="NextSelectionLeft">null</Ref>
+					<Ref name="NextSelectionRight">null</Ref>
+					<Ref name="NextSelectionUp">null</Ref>
+					<UDim2 name="Position">
+						<XS>0.5</XS>
+						<XO>0</XO>
+						<YS>0.850000024</YS>
+						<YO>0</YO>
+					</UDim2>
+					<Ref name="RootLocalizationTable">null</Ref>
+					<float name="Rotation">0</float>
+					<token name="ScaleType">0</token>
+					<bool name="Selectable">false</bool>
+					<Ref name="SelectionImageObject">null</Ref>
+					<UDim2 name="Size">
+						<XS>0.800000012</XS>
+						<XO>0</XO>
+						<YS>0.25</YS>
+						<YO>0</YO>
+					</UDim2>
+					<token name="SizeConstraint">2</token>
+					<Rect2D name="SliceCenter">
+						<min>
+							<X>0</X>
+							<Y>0</Y>
+						</min>
+						<max>
+							<X>0</X>
+							<Y>0</Y>
+						</max>
+					</Rect2D>
+					<float name="SliceScale">1</float>
+					<BinaryString name="Tags"></BinaryString>
+					<UDim2 name="TileSize">
+						<XS>1</XS>
+						<XO>0</XO>
+						<YS>1</YS>
+						<YO>0</YO>
+					</UDim2>
+					<bool name="Visible">true</bool>
+					<int name="ZIndex">1</int>
+				</Properties>
+				<Item class="Frame" referent="RBXFF3396594B7F47468DDB935DCE40F71A">
+					<Properties>
+						<bool name="Active">false</bool>
+						<Vector2 name="AnchorPoint">
+							<X>0.5</X>
+							<Y>0.5</Y>
+						</Vector2>
+						<bool name="AutoLocalize">true</bool>
+						<Color3 name="BackgroundColor3">
+							<R>0.211764723</R>
+							<G>0.211764723</G>
+							<B>0.211764723</B>
+						</Color3>
+						<float name="BackgroundTransparency">1</float>
+						<Color3 name="BorderColor3">
+							<R>0.105882362</R>
+							<G>0.164705887</G>
+							<B>0.207843155</B>
+						</Color3>
+						<int name="BorderSizePixel">1</int>
+						<bool name="ClipsDescendants">false</bool>
+						<bool name="Draggable">false</bool>
+						<int name="LayoutOrder">0</int>
+						<string name="Name">TextFrame</string>
+						<Ref name="NextSelectionDown">null</Ref>
+						<Ref name="NextSelectionLeft">null</Ref>
+						<Ref name="NextSelectionRight">null</Ref>
+						<Ref name="NextSelectionUp">null</Ref>
+						<UDim2 name="Position">
+							<XS>0.5</XS>
+							<XO>0</XO>
+							<YS>0.5</YS>
+							<YO>0</YO>
+						</UDim2>
+						<Ref name="RootLocalizationTable">null</Ref>
+						<float name="Rotation">0</float>
+						<bool name="Selectable">false</bool>
+						<Ref name="SelectionImageObject">null</Ref>
+						<UDim2 name="Size">
+							<XS>1</XS>
+							<XO>0</XO>
+							<YS>1</YS>
+							<YO>0</YO>
+						</UDim2>
+						<token name="SizeConstraint">0</token>
+						<token name="Style">0</token>
+						<BinaryString name="Tags"></BinaryString>
+						<bool name="Visible">true</bool>
+						<int name="ZIndex">1</int>
+					</Properties>
+				</Item>
+				<Item class="ImageLabel" referent="RBXB6AD8FD374834AC6AF6BA23CF516A16C">
+					<Properties>
+						<bool name="Active">false</bool>
+						<Vector2 name="AnchorPoint">
+							<X>0.5</X>
+							<Y>0.5</Y>
+						</Vector2>
+						<bool name="AutoLocalize">true</bool>
+						<Color3 name="BackgroundColor3">
+							<R>1</R>
+							<G>1</G>
+							<B>1</B>
+						</Color3>
+						<float name="BackgroundTransparency">1</float>
+						<Color3 name="BorderColor3">
+							<R>0.105882362</R>
+							<G>0.164705887</G>
+							<B>0.207843155</B>
+						</Color3>
+						<int name="BorderSizePixel">1</int>
+						<bool name="ClipsDescendants">false</bool>
+						<bool name="Draggable">false</bool>
+						<Content name="Image"><url>rbxassetid://1014927001</url></Content>
+						<Color3 name="ImageColor3">
+							<R>1</R>
+							<G>1</G>
+							<B>1</B>
+						</Color3>
+						<Vector2 name="ImageRectOffset">
+							<X>0</X>
+							<Y>0</Y>
+						</Vector2>
+						<Vector2 name="ImageRectSize">
+							<X>0</X>
+							<Y>0</Y>
+						</Vector2>
+						<float name="ImageTransparency">0</float>
+						<int name="LayoutOrder">0</int>
+						<string name="Name">Button</string>
+						<Ref name="NextSelectionDown">null</Ref>
+						<Ref name="NextSelectionLeft">null</Ref>
+						<Ref name="NextSelectionRight">null</Ref>
+						<Ref name="NextSelectionUp">null</Ref>
+						<UDim2 name="Position">
+							<XS>0.5</XS>
+							<XO>0</XO>
+							<YS>1.14999998</YS>
+							<YO>0</YO>
+						</UDim2>
+						<Ref name="RootLocalizationTable">null</Ref>
+						<float name="Rotation">0</float>
+						<token name="ScaleType">0</token>
+						<bool name="Selectable">false</bool>
+						<Ref name="SelectionImageObject">null</Ref>
+						<UDim2 name="Size">
+							<XS>0.300000012</XS>
+							<XO>0</XO>
+							<YS>0.300000012</YS>
+							<YO>0</YO>
+						</UDim2>
+						<token name="SizeConstraint">2</token>
+						<Rect2D name="SliceCenter">
+							<min>
+								<X>0</X>
+								<Y>0</Y>
+							</min>
+							<max>
+								<X>0</X>
+								<Y>0</Y>
+							</max>
+						</Rect2D>
+						<float name="SliceScale">1</float>
+						<BinaryString name="Tags"></BinaryString>
+						<UDim2 name="TileSize">
+							<XS>1</XS>
+							<XO>0</XO>
+							<YS>1</YS>
+							<YO>0</YO>
+						</UDim2>
+						<bool name="Visible">true</bool>
+						<int name="ZIndex">1</int>
+					</Properties>
+				</Item>
+				<Item class="UIPadding" referent="RBXAD0178A561574B3A93EFAA78C51C2CE2">
+					<Properties>
+						<string name="Name">UIPadding</string>
+						<UDim name="PaddingBottom">
+							<S>0.200000003</S>
+							<O>0</O>
+						</UDim>
+						<UDim name="PaddingLeft">
+							<S>0.100000001</S>
+							<O>0</O>
+						</UDim>
+						<UDim name="PaddingRight">
+							<S>0.100000001</S>
+							<O>0</O>
+						</UDim>
+						<UDim name="PaddingTop">
+							<S>0.200000003</S>
+							<O>0</O>
+						</UDim>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+				</Item>
+			</Item>
+			<Item class="LocalScript" referent="RBX7CF4654688DB4A4F9DA56285122F5938">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">LocalText</string>
+					<string name="ScriptGuid">{0D8B8C5C-B258-48BE-BC87-5CA74ABC6D70}</string>
+					<ProtectedString name="Source"><![CDATA[-- Rich text Wind Waker example: -- https://youtu.be/CY3ghdwL9W4?t=4m34s	https://twitter.com/Defaultio/status/903138250054709248
+
+-- Make sure the RichText module is parented to this ScreenGui
+
+local richText = require(script.Parent:FindFirstChild("RichText") or script.Parent.Parent)
+script.Parent.Enabled = true
+local tweenService = game:GetService("TweenService")
+local dialogueFrame = script.Parent.Dialogue
+local textFrame = dialogueFrame.TextFrame
+local buttonA = dialogueFrame.Button
+dialogueFrame.Visible = false
+buttonA.Visible = false
+
+local buttonFadeIn = tweenService:Create(buttonA, TweenInfo.new(0.1), {ImageTransparency = 0})
+local buttonFadeOut = tweenService:Create(buttonA, TweenInfo.new(0.1), {ImageTransparency = 1})
+local buttonClickTween = tweenService:Create(buttonA, TweenInfo.new(0.05, Enum.EasingStyle.Quart, Enum.EasingDirection.InOut), {Size = UDim2.new(0.25, 0, 0.25, 0)})
+local frameFadeIn = tweenService:Create(dialogueFrame, TweenInfo.new(0.4), {Size = dialogueFrame.Size, ImageTransparency = 0})
+local frameFadeOut = tweenService:Create(dialogueFrame, TweenInfo.new(0.4), {ImageTransparency = 1})
+
+
+local function showButton()
+	buttonA.Size = UDim2.new(0.3, 0, 0.3, 0)
+	buttonA.Visible = true
+	buttonFadeIn:Play()
+	wait(buttonFadeIn.TweenInfo.Time)
+end
+
+local function clickButton()
+	buttonClickTween:Play()
+	wait(buttonClickTween.TweenInfo.Time)
+	buttonFadeOut:Play()
+	wait(buttonFadeOut.TweenInfo.Time)
+	buttonA.Visible = false
+end
+
+local function showFrame()
+	dialogueFrame.Size = UDim2.new(0.4, 0, 0.1, 0)
+	dialogueFrame.ImageTransparency = 1
+	dialogueFrame.Visible = true
+	frameFadeIn:Play()
+	wait(frameFadeIn.TweenInfo.Time)
+end
+
+local function hideFrame()
+	frameFadeOut:Play()
+	wait(frameFadeOut.TweenInfo.Time)
+	dialogueFrame.Visible = false
+end
+
+local function showDialogue(text, delayTime)
+	local textObject = richText:New(textFrame, text, {Font = "Cartoon"})--, AnimateStyle = "Wiggle", AnimateStepFrequency = 1, AnimateStyleTime = 7, AnimateStyleNumPeriods = 10})
+	textObject:Animate(true)
+	showButton()
+	wait(delayTime)
+	clickButton()
+	textObject:Hide()
+end
+
+
+
+
+local textSequence = {{Text = "I just saw a <Color=Red>wild<Color=/>...a <AnimateStyle=Wiggle><Color=Red>wild pig🐷<Color=/>!<AnimateYield=1><AnimateStyle=/>\nOoh! See? Look! That black one there...<AnimateYield=1>\nDon't you see him?", Delay = 1.5},
+					{Text = "<AnimateYield=0.3>This is perfect! My wife was just telling me how she really wanted a pet...", Delay = 2.7},
+					{Text = "You ready to go grab it, Link?<AnimateYield=0.3>\n Now, you can't just run up on it!\nPigs are too alert to their surroundings for you to just jog up and capture one.", Delay = 3.5},
+					{Text = "If you want to get close to one, you have to hold <Img=1014975764> to crouch and tilt <Img=1014975761> to crawl slowly up behind it. <AnimateYield=1.5>Slow<AnimateYield=1>ly...", Delay = 3},
+					{Text = "You could also distract it with bait, I guess.", Delay = 1.5},
+}
+
+
+--This is the animation example:
+--local textSequence = {{Text = "This text is about to be <Color=Green><AnimateStyle=Wiggle><AnimateStepFrequency=1><AnimateStyleTime=2>wiggly<AnimateStyle=/><AnimateStepFrequency=/><AnimateStyleTime=/><Color=/>!<AnimateYield=1.5>\nIt can also be <Color=Red><AnimateStyle=Fade><AnimateStepFrequency=1><AnimateStyleTime=0.5>fadey <Img=Eggplant>fadey<AnimateStyle=/><AnimateStepFrequency=/><AnimateStyleTime=/><Color=/>!<AnimateYield=1>\n<AnimateStyle=Rainbow><AnimateStyleTime=2>Or rainbow!!! :O<Img=Thinking><AnimateStyle=/><AnimateStyleTime=/><AnimateYield=1>\n<AnimateStyle=Swing><AnimateStyleTime=3>Make custom animations! <Img=Eggplant>", Delay = 10}}
+
+--This is a text justification example:
+--local textSequence = {{Text = "Have you ever <Color=Red>thought<Color=/><AnimateStepFrequency=1><AnimateStepTime=0.4> . . .<AnimateStepFrequency=/><AnimateStepTime=/><AnimateYield=1><ContainerHorizontalAlignment=Center>\n<TextScale=0.5><AnimateStyle=Rainbow><AnimateStyleTime=2.5><Img=Thinking><AnimateStyle=/><TextScale=/><AnimateYield=3><ContainerHorizontalAlignment=Right>\n<Color=Green><AnimateStyle=Spin><AnimateStyleTime=1.5>Wow<AnimateStyle=/><Color=/>!", Delay = 10}}
+
+wait(2)
+
+showFrame()
+for _, v in pairs(textSequence) do
+	showDialogue(v.Text, v.Delay)
+end
+hideFrame()
+
+]]></ProtectedString>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+			</Item>
+			<Item class="ModuleScript" referent="RBX3E68594434E34B6682F3363483748DE7">
+				<Properties>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">RichText</string>
+					<string name="ScriptGuid">{2B720D3B-6A46-44A2-A346-805C34CC2688}</string>
+					<ProtectedString name="Source"><![CDATA[--[[
+	
+Rich text markup with support for modifying any TextLabel property per character + inline images + entrance animations
+
+Written by Defaultio ~ August 30 2017
+
+Changes:	
+	October 21 2017 - Unicode support added thanks to Tiffany Bennett - https://gist.github.com/tiffany352/ccb3559738f4e8d4152d940126998c41
+	January 29 2017 - Added finishAnimate parameter to RichTextObject:Show() function
+					- Fixed bug on iOS devices causing some characters to fail to appear. Using TextWrapped = false on character labels fixed this, thanks Buildthomas.
+
+
+			TODO:
+				- exit animations
+				- emphasis animations
+				- support for inline buttons
+				- sounds for each text step
+				- markup events that will fire a callback provided in the constructor when the text animation is reached, use for character animations, etc
+			
+			Let me know if these features will be useful and I'll add them more quickly.
+
+___________________________________________________________________________________________________________________
+
+API:
+
+Constructor:
+
+	RichText:New(GuiObject frame, String text, Dictionary startingProperties = {}, Boolean allowOverflow = true)
+		frame: the parent frame which will be populated with text
+		text: self explanitory
+		startingProperties: a dictionary of what the default text properties should be
+		allowOverflow: if false, text will stop rendering when it fills the vertical height of the frame. To continue the text in another frame, see RichText:ContinueOverflow() below...
+		
+		returns: richText object
+			
+	RichText:ContinueOverflow(GuiObject nextFrame, RichTextObject previousRichTextObject)
+		nextFrame: the parent frame that text will continue into
+		previousRichTextObject: the previous RichTextObject that is being overflown from.
+		
+		returns: richTextObject
+	
+			
+RichText Object: (returned by constructor)
+
+	RichTextObject:Animate(doYield = false)
+		Will run the animation. If doYield is true, the thread will yield until the animation is complete. Else, it will wrap the animation function in a coroutine
+		
+	RichTextObject:Show(finishAnimation = false)
+		Shows the entirety of the text body. Will interrupt and stop the animation if it's running. if finishAnimation is true, the remaining text will animate in instead of appearing instantly.
+		
+	RichTextObject:Hide()
+		Hides the text body. Will interrupt and stop the animation if it's running. The animation can be replayed after hiding.
+		
+	
+	Vector2 RichTextObject.ContentSize
+		Content size in pixels
+		
+	Boolean RichTextObject.Overflown
+		If allowOverflow was false, this value shows if the text is overflown or if it fit in the frame. If overflown, use RichText:ContinueOverflow to continue into a new frame.
+		
+
+
+___________________________________________________________________________________________________________________
+
+USAGE:
+
+The text supplied in the constructor can be any text string. Insert a markup modifier by including <MarkupKey=MarkupValue>. No spaces.
+
+	Examples of what this looks like include:
+		<Font=ArialBold> --Set the font to ArialBold
+		<Img=639588687> -- Insert an inline image with this ID
+		<AnimateStepTime=0.4> -- Set the animate step time to 0.4 seconds.
+		<AnimateYield=1> -- Yield for one second at this point in the animation
+		<TextColor3=1,0,0> -- Set text color to red
+		<Color=Red> -- Equivalent to above. The shortcut for the property name is defined in the propertyShortcuts table, and the color shortcut is defined in the colors table.
+		
+	After you set any markup value, you can revert it back to default later by setting it to "/". For example:
+		<Font=/>
+		<AnimateStepTime=/>
+		<Color=/>
+		
+	Default values are defined by values in the "default" table below, or by values supplied in the startingProperties dictionary when the object is constructed.
+
+Currently does not support escapement characters for < and >, so you can't use these characters in the text string.
+
+
+To when using RichText:ContinueOverflow, calling Animate(), Show(), or Hide() on the initial RichText object will pass this call onto subsequent overflown rich text objects, so
+only a call to the first object is neccessary. See example.
+
+___________________________________________________________________________________________________________________
+
+Example code:
+
+	local richText = require(richTextModule)
+	local text = "Hello world!\nLine two! <AnimateDelay=1><Img=Thinking>"
+	local textObject = richText:New(frame, text)
+	textObject:Animate(true)
+	print("Animation done!")
+
+
+Example string 1: Basic
+
+	local text = "<Font=SourceSansBold><TextScale=0.3>Oh!<TextScale=/><Font=/><AnimateYield=1> I didn't see you there<AnimateStepFrequency=1><AnimateStepTime=0.4> . . .<AnimateStepFrequency=/><AnimateStepTime=/>\n I wasn't expecting <Color=255,0,0>you<Color=/>. Please forgive the state of my room.<AnimateYield=1><Img=639588687>"
+	
+	--This yields this result: https://twitter.com/Defaultio/status/903094769617747968
+
+
+Example string 2: Wind Waker
+
+	Insert the WindWakerExample ScreenGui in this module into StarterGui.
+	Insert this module into WindWakerExample.
+	Ensure WindWakerExample.LocalText is not Disabled.
+	
+	-- This yields this result: https://twitter.com/Defaultio/status/903138250054709248
+	
+	
+Example string 3: Text-in animations
+
+	local text = "This text is about to be <Color=Green><AnimateStyle=Wiggle><AnimateStepFrequency=1><AnimateStyleTime=2>wiggly<AnimateStyle=/><AnimateStepFrequency=/><AnimateStyleTime=/><Color=/>!<AnimateYield=1.5>\nIt can also be <Color=Red><AnimateStyle=Fade><AnimateStepFrequency=1><AnimateStyleTime=0.5>fadey fadey<AnimateStyle=/><AnimateStepFrequency=/><AnimateStyleTime=/><Color=/>!<AnimateYield=1>\n<AnimateStyle=Rainbow><AnimateStyleTime=2>Or rainbow!!! :O<AnimateStyle=/><AnimateStyleTime=/><AnimateYield=1>\n<AnimateStyle=Swing><AnimateStyleTime=3>Make custom animations!"
+	
+	-- This yields this result: https://twitter.com/Defaultio/status/903346975688425472
+	
+	
+Example string 4: Variable text justification per line
+
+	local text = "Have you ever <Color=Red>thought<Color=/><AnimateStepFrequency=1><AnimateStepTime=0.4> . . .<AnimateStepFrequency=/><AnimateStepTime=/><AnimateYield=1><ContainerHorizontalAlignment=Center>\n<TextScale=0.5><AnimateStyle=Rainbow><AnimateStyleTime=2.5><Img=Thinking><AnimateStyle=/><TextScale=/><AnimateYield=3><ContainerHorizontalAlignment=Right>\n<Color=Green><AnimateStyle=Spin><AnimateStyleTime=1.5>Wow<AnimateStyle=/><Color=/>!"
+
+	-- This yields this result: https://twitter.com/Defaultio/status/903381787467956224
+
+Example 5: Overflowing
+
+	Insert the OverflowingExample ScreenGui in this module into StarterGui.
+	Inert this module into the OverflowingExample ScreenGui.
+	Ensure OverflowingExample.LocalText is not disabled.
+	
+	-- This yields this result: https://twitter.com/Defaultio/status/918619989107621888
+
+___________________________________________________________________________________________________________________	
+	
+--]]
+
+local richText = {}
+
+--------- SHORTCUTS ---------
+
+-- Color shortcuts: you can use these strings instead of full property names
+local propertyShortcuts = {}
+propertyShortcuts.Color = "TextColor3"
+propertyShortcuts.StrokeColor = "TextStrokeColor3"
+propertyShortcuts.ImageColor = "ImageColor3"
+
+-- Color shortcuts: you can use these strings instead of defining exact color values
+richText.ColorShortcuts = {}
+richText.ColorShortcuts.White = Color3.new(1, 1, 1)
+richText.ColorShortcuts.Black = Color3.new(0, 0, 0)
+richText.ColorShortcuts.Red = Color3.new(1, 0.4, 0.4)
+richText.ColorShortcuts.Green = Color3.new(0.4, 1, 0.4)
+richText.ColorShortcuts.Blue = Color3.new(0.4, 0.4, 1)
+richText.ColorShortcuts.Cyan = Color3.new(0.4, 0.85, 1)
+richText.ColorShortcuts.Orange = Color3.new(1, 0.5, 0.2)
+richText.ColorShortcuts.Yellow = Color3.new(1, 0.9, 0.2)
+
+-- Image shortcuts: you can use these string instead of using image ids
+richText.ImageShortcuts = {}
+richText.ImageShortcuts.Eggplant = 639588687
+richText.ImageShortcuts.Thinking = 955646496
+richText.ImageShortcuts.Sad = 947900188
+richText.ImageShortcuts.Happy = 414889555
+richText.ImageShortcuts.Despicable = 711674643
+
+--------- DEFAULTS ---------
+
+local defaults = {}
+
+--Text alignment default properties
+defaults.ContainerHorizontalAlignment = "Left" -- Align,ent of text within frame container
+defaults.ContainerVerticalAlignment = "Center" 
+defaults.TextYAlignment = "Bottom" -- Alignment of the text on the line, only makes a difference if the line has variable text sizes
+
+-- Text size default properties
+defaults.TextScaled = true
+defaults.TextScaleRelativeTo = "Frame" -- "Frame" or "Screen" If Frame, will scale relative to vertical size of the parent frame. If Screen, will scale relative to vertical size of the ScreenGui.
+defaults.TextScale = 0.25 -- If you want the frame to have a nominal count of n lines of text, make this value 1 / n. For four lines, 1 / 4 = 0.25.
+defaults.TextSize = 20 -- Only applicable if TextScaled = false
+
+-- TextLabel default properties
+defaults.Font = "SourceSans"
+defaults.TextColor3 = "White"
+defaults.TextStrokeColor3 = "Black"
+defaults.TextTransparency = 0
+defaults.TextStrokeTransparency = 1
+defaults.BackgroundTransparency = 1
+defaults.BorderSizePixel = 0
+
+-- Image label default properties
+defaults.ImageColor3 = "White"
+defaults.ImageTransparency = 0
+defaults.ImageRectOffset = "0,0"
+defaults.ImageRectSize = "0,0"
+
+-- Text animation default properties
+	-- character appearance timing:
+defaults.AnimateStepTime = 0 -- Seconds between newframes
+defaults.AnimateStepGrouping = "Letter" -- "Word" or "Letter" or "All"
+defaults.AnimateStepFrequency = 4 -- How often to step, 1 is all, 2 is step in pairs, 3 is every three, etc.
+	-- yielding:
+defaults.AnimateYield = 0 -- Set this markup to yield
+	-- entrance style parameters:
+defaults.AnimateStyle = "Appear"
+defaults.AnimateStyleTime = 0.5 -- How long it takes for an entrance style to fully execute
+defaults.AnimateStyleNumPeriods = 3 -- Used differently for each entrance style
+defaults.AnimateStyleAmplitude = 0.5 -- Used differently for each entrance style
+
+
+--------- ENTRANCE ANIMATION FUNCTIONS ---------
+
+-- These are functions responsible for animating how text enters. The functions are passed:
+	-- characters: A list of the characters to be animated.
+	-- animateAlpha: A value of 0 - 1 that represents the lifetime of the animation
+	-- properties: A dictionary of all the properties at that character, including InitialSize and InitialPosition
+	
+local animationStyles = {}
+
+function animationStyles.Appear(character)
+	character.Visible = true
+end
+
+function animationStyles.Fade(character, animateAlpha, properties)
+	character.Visible = true
+	if character:IsA("TextLabel") then
+		character.TextTransparency = 1 - (animateAlpha * (1 - properties.TextTransparency))
+	elseif character:IsA("ImageLabel") then
+		character.ImageTransparency = 1 - (animateAlpha * (1 - properties.ImageTransparency))
+	end
+end
+
+function animationStyles.Wiggle(character, animateAlpha, properties)
+	character.Visible = true
+	local amplitude = properties.InitialSize.Y.Offset * (1 - animateAlpha) * properties.AnimateStyleAmplitude
+	character.Position = properties.InitialPosition + UDim2.new(0, 0, 0, math.sin(animateAlpha * math.pi * 2 * properties.AnimateStyleNumPeriods) * amplitude / 2)
+end
+
+function animationStyles.Swing(character, animateAlpha, properties)
+	character.Visible = true
+	local amplitude = 90 * (1 - animateAlpha) * properties.AnimateStyleAmplitude
+	character.Rotation = math.sin(animateAlpha * math.pi * 2 * properties.AnimateStyleNumPeriods) * amplitude
+end
+
+function animationStyles.Spin(character, animateAlpha, properties)
+	character.Visible = true
+	character.Position = properties.InitialPosition + UDim2.new(0, properties.InitialSize.X.Offset / 2, 0, properties.InitialSize.Y.Offset / 2)
+	character.AnchorPoint = Vector2.new(0.5, 0.5)
+	character.Rotation = animateAlpha * properties.AnimateStyleNumPeriods * 360
+end
+
+function animationStyles.Rainbow(character, animateAlpha, properties)
+	character.Visible = true
+	local rainbowColor = Color3.fromHSV(animateAlpha * properties.AnimateStyleNumPeriods % 1, 1, 1)
+	if character:IsA("TextLabel") then
+		local initialColor = getColorFromString(properties.TextColor3)
+		character.TextColor3 = Color3.new(rainbowColor.r + animateAlpha * (initialColor.r - rainbowColor.r), rainbowColor.g + animateAlpha * (initialColor.g - rainbowColor.g), rainbowColor.b + animateAlpha * (initialColor.b - rainbowColor.b))
+	else
+		local initialColor = getColorFromString(properties.ImageColor3)
+		character.ImageColor3 = Color3.new(rainbowColor.r + animateAlpha * (initialColor.r - rainbowColor.r), rainbowColor.g + animateAlpha * (initialColor.g - rainbowColor.g), rainbowColor.b + animateAlpha * (initialColor.b - rainbowColor.b))
+	end
+end
+
+
+--------- MODULE BEGIN ---------
+
+local textService = game:GetService("TextService")
+local runService = game:GetService("RunService")
+local animationCount = 0
+
+function getLayerCollector(frame)
+	if not frame then
+		return nil
+	elseif frame:IsA("LayerCollector") then
+		return frame
+	elseif frame and frame.Parent then
+		return getLayerCollector(frame.Parent)
+	else
+		return nil
+	end
+end
+
+function shallowCopy(tab)
+	local ret = {}
+	for key, value in pairs(tab) do
+		ret[key] = value
+	end
+	return ret
+end
+
+function getColorFromString(value)
+	if richText.ColorShortcuts[value] then
+		 return richText.ColorShortcuts[value]
+	else
+		local r, g, b = value:match("(%d+),(%d+),(%d+)")
+		return Color3.new(r / 255, g / 255, b / 255)
+	end
+end
+
+function getVector2FromString(value)
+	local x, y = value:match("(%d+),(%d+)")
+	return Vector2.new(x, y)
+end
+
+function setHorizontalAlignment(frame, alignment)
+	if alignment == "Left" then
+		frame.AnchorPoint = Vector2.new(0, 0)
+		frame.Position = UDim2.new(0, 0, 0, 0)
+	elseif alignment == "Center" then
+		frame.AnchorPoint = Vector2.new(0.5, 0)
+		frame.Position = UDim2.new(0.5, 0, 0, 0)
+	elseif alignment == "Right" then
+		frame.AnchorPoint = Vector2.new(1, 0)
+		frame.Position = UDim2.new(1, 0, 0, 0)
+	end
+end
+
+function richText:New(frame, text, startingProperties, allowOverflow, prevTextObject)
+	for _, v in pairs(frame:GetChildren()) do
+		v:Destroy()
+	end
+	if allowOverflow == nil then
+		allowOverflow = true
+	end
+	
+	local properties = {}
+	local defaultProperties = {}
+	if prevTextObject then
+		text = prevTextObject.Text
+		startingProperties = prevTextObject.StartingProperties
+	end
+	
+	local lineFrames = {}
+	local textFrames = {}
+	local frameProperties = {}
+	local linePosition = 0
+	local overflown = false
+	local textLabel = Instance.new("TextLabel")
+	local imageLabel = Instance.new("ImageLabel")
+	local layerCollector = getLayerCollector(frame)
+	
+	local applyProperty, applyMarkup, formatLabel, printText, printImage, printSeries
+	
+	----- Apply properties / markups -----
+	function applyMarkup(key, value)
+		key = propertyShortcuts[key] or key
+		if value == "/" then
+			if defaultProperties[key] then
+				value = defaultProperties[key]
+			else
+				warn("Attempt to default <"..key.."> to value with no default")
+			end
+		end
+		if tonumber(value) then
+			value = tonumber(value)
+		elseif value == "false" or value == "true" then
+			value = value == "true"
+		end
+		properties[key] = value
+		
+		if applyProperty(key, value) then
+			-- Ok
+		elseif key == "ContainerHorizontalAlignment" and lineFrames[#lineFrames] then
+			setHorizontalAlignment(lineFrames[#lineFrames].Container, value)
+		elseif defaults[key] then
+			-- Ok
+		elseif key == "Img" then
+			printImage(value)
+		else
+			-- Unknown value
+			return false	
+		end
+		return true
+	end
+	
+	function applyProperty(name, value, frame)
+		local propertyType
+		local ret = false
+		for _, label in pairs(frame and {frame} or {textLabel, imageLabel}) do
+			local isProperty = pcall(function() propertyType = typeof(label[name]) end) -- is there a better way to check if it's a property?
+			if isProperty then
+				if propertyType == "Color3" then
+					label[name] = getColorFromString(value)
+				elseif propertyType == "Vector2" then
+					label[name] = getVector2FromString(value)
+				else
+					label[name] = value	
+				end
+				ret = true	
+			end
+		end
+		return ret
+	end
+	
+	----- Set up default properties -----
+	for name, value in pairs(defaults) do
+		applyMarkup(name, value)
+		defaultProperties[propertyShortcuts[name] or name] = properties[propertyShortcuts[name] or name]
+	end
+	for name, value in pairs(startingProperties or {}) do
+		applyMarkup(name, value)
+		defaultProperties[propertyShortcuts[name] or name] = properties[propertyShortcuts[name] or name]
+	end
+	
+	if prevTextObject then
+		properties = prevTextObject.OverflowPickupProperties
+		for name, value in pairs(properties) do
+			applyMarkup(name, value)
+		end
+	end
+	
+	----- Get vertical size -----
+	local function getTextSize()
+		if properties.TextScaled == true then
+			local relativeHeight
+			if properties.TextScaleRelativeTo == "Screen" then
+				relativeHeight = layerCollector.AbsoluteSize.Y
+			elseif properties.TextScaleRelativeTo == "Frame" then
+				relativeHeight = frame.AbsoluteSize.Y
+			end
+			return math.min(properties.TextScale * relativeHeight, 100)
+		else
+			return properties.TextSize
+		end
+	end
+	
+	----- Lines -----
+	local contentHeight = 0
+	local function newLine()
+		local lastLineFrame = lineFrames[#lineFrames]
+		if lastLineFrame then
+			contentHeight = contentHeight + lastLineFrame.Size.Y.Offset
+			if not allowOverflow and contentHeight + getTextSize() > frame.AbsoluteSize.Y then
+				overflown = true
+				return
+			end
+		end
+		local lineFrame = Instance.new("Frame")
+		lineFrame.Name = string.format("Line%03d", #lineFrames + 1)
+		lineFrame.Size = UDim2.new(0, 0, 0, 0)
+		lineFrame.BackgroundTransparency = 1		
+		local textContainer = Instance.new("Frame", lineFrame)
+		textContainer.Name = "Container"
+		textContainer.Size = UDim2.new(0, 0, 0, 0)
+		textContainer.BackgroundTransparency = 1
+		setHorizontalAlignment(textContainer, properties.ContainerHorizontalAlignment)
+		lineFrame.Parent = frame
+		table.insert(lineFrames, lineFrame)
+		textFrames[#lineFrames] = {}
+		linePosition = 0
+	end
+	newLine()
+	
+	----- Label printing -----
+	local function addFrameProperties(frame)
+		frameProperties[frame] = shallowCopy(properties)
+		frameProperties[frame].InitialSize = frame.Size
+		frameProperties[frame].InitialPosition = frame.Position
+		frameProperties[frame].InitialAnchorPoint = frame.AnchorPoint
+	end
+	
+	function formatLabel(newLabel, labelHeight, labelWidth, endOfLineCallback)
+		local lineFrame = lineFrames[#lineFrames]
+		
+		local verticalAlignment = tostring(properties.TextYAlignment)
+		if verticalAlignment  == "Top" then
+			newLabel.Position = UDim2.new(0, linePosition, 0, 0)
+			newLabel.AnchorPoint = Vector2.new(0, 0)
+		elseif verticalAlignment  == "Center" then
+			newLabel.Position = UDim2.new(0, linePosition, 0.5, 0)
+			newLabel.AnchorPoint = Vector2.new(0, 0.5)
+		elseif verticalAlignment  == "Bottom" then
+			newLabel.Position = UDim2.new(0, linePosition, 1, 0)
+			newLabel.AnchorPoint = Vector2.new(0, 1)
+		end
+		
+		linePosition = linePosition + labelWidth
+		if linePosition > frame.AbsoluteSize.X and not (linePosition == labelWidth) then
+			-- Newline, get rid of label and retry it on the next line
+			newLabel:Destroy()
+			local lastLabel = textFrames[#lineFrames][#textFrames[#lineFrames]]
+			if lastLabel:IsA("TextLabel") and lastLabel.Text == " " then -- get rid of trailing space
+				lineFrame.Container.Size = UDim2.new(0, linePosition - labelWidth - lastLabel.Size.X.Offset, 1, 0)
+				lastLabel:Destroy()
+				table.remove(textFrames[#lineFrames])
+			end
+			newLine()
+			endOfLineCallback()
+		else
+			-- Label is ok
+			newLabel.Size = UDim2.new(0, labelWidth, 0, labelHeight)
+			lineFrame.Container.Size = UDim2.new(0, linePosition, 1, 0)
+			lineFrame.Size = UDim2.new(1, 0, 0, math.max(lineFrame.Size.Y.Offset, labelHeight))
+			newLabel.Name = string.format("Group%03d", #textFrames[#lineFrames] + 1)
+			newLabel.Parent = lineFrame.Container
+			table.insert(textFrames[#lineFrames], newLabel)
+			addFrameProperties(newLabel)
+			properties.AnimateYield = 0
+		end
+	end
+	
+	function printText(text)
+		if text == "\n" then
+			newLine()
+			return
+		elseif text == " " and linePosition == 0 then
+			return -- no leading spaces
+		end
+		
+		local textSize = getTextSize()
+		local textWidth = textService:GetTextSize(text, textSize, textLabel.Font, Vector2.new(layerCollector.AbsoluteSize.X, textSize)).X
+		
+		local newTextLabel = textLabel:Clone()
+		newTextLabel.TextScaled = false
+		newTextLabel.TextSize = textSize
+		newTextLabel.Text = text -- This text is never actually displayed. We just use it as a reference for knowing what the group string is.
+		newTextLabel.TextTransparency = 1
+		newTextLabel.TextStrokeTransparency = 1
+		newTextLabel.TextWrapped = false
+		
+		-- Keep the real text in individual frames per character:
+		local charPos = 0
+		local i = 1
+		for first, last in utf8.graphemes(text) do
+			local character = string.sub(text, first, last)
+			local characterWidth = textService:GetTextSize(character, textSize, textLabel.Font, Vector2.new(layerCollector.AbsoluteSize.X, textSize)).X
+			local characterLabel = textLabel:Clone()
+			characterLabel.Text = character
+			characterLabel.TextScaled = false
+			characterLabel.TextSize = textSize
+			characterLabel.Position = UDim2.new(0, charPos, 0, 0)
+			characterLabel.Size = UDim2.new(0, characterWidth, 0, textSize)
+			characterLabel.Name = string.format("Char%03d", i)
+			characterLabel.Parent = newTextLabel
+			characterLabel.Visible = false
+			addFrameProperties(characterLabel)
+			charPos = charPos + characterWidth
+			i = i + 1
+		end
+
+		formatLabel(newTextLabel, textSize, textWidth, function() if not overflown then printText(text) end end)
+	end
+	
+	function printImage(imageId)
+		local imageHeight = getTextSize()
+		local imageWidth = imageHeight -- Would be nice if we could get aspect ratio of image to get width properly.
+		
+		local newImageLabel = imageLabel:Clone()
+		
+		if richText.ImageShortcuts[imageId] then
+			newImageLabel.Image = typeof(richText.ImageShortcuts[imageId]) == "number" and "rbxassetid://"..richText.ImageShortcuts[imageId] or richText.ImageShortcuts[imageId]
+		else
+			newImageLabel.Image = "rbxassetid://"..imageId
+		end
+		newImageLabel.Size = UDim2.new(0, imageHeight, 0, imageWidth)
+		newImageLabel.Visible = false
+
+		formatLabel(newImageLabel, imageHeight, imageWidth, function() if not overflown then printImage(imageId) end end)
+	end
+	
+	function printSeries(labelSeries)	
+		for _, t in pairs(labelSeries) do
+			local markupKey, markupValue = string.match(t, "<(.+)=(.+)>")
+			if markupKey and markupValue then
+				if not applyMarkup(markupKey, markupValue) then
+					warn("Could not apply markup: ", t)
+				end			
+			else
+				printText(t)
+			end
+		end	
+	end
+	
+	----- Text traversal + parsing -----
+	local overflowText
+	local textPos = 1
+	local textLength = #text
+	local labelSeries = {}
+	
+	if prevTextObject then
+		textPos = prevTextObject.OverflowPickupIndex
+	end
+	
+	while textPos and textPos <= textLength do
+		local nextMarkupStart, nextMarkupEnd = string.find(text, "<.->", textPos)
+		local nextSpaceStart, nextSpaceEnd = string.find(text, "[ \t\n]", textPos)
+		
+		local nextBreakStart, nextBreakEnd, breakIsWhitespace
+		if nextMarkupStart and nextMarkupEnd and (not nextSpaceStart or nextMarkupStart < nextSpaceStart) then
+			nextBreakStart, nextBreakEnd = nextMarkupStart, nextMarkupEnd
+		else
+			nextBreakStart, nextBreakEnd = nextSpaceStart or textLength + 1, nextSpaceEnd or textLength + 1
+			breakIsWhitespace = true
+		end
+		
+		local nextWord = nextBreakStart > textPos and string.sub(text, textPos, nextBreakStart - 1) or nil
+		local nextBreak = nextBreakStart <= textLength and string.sub(text, nextBreakStart, nextBreakEnd) or nil
+		table.insert(labelSeries, nextWord)
+		
+		if breakIsWhitespace then
+			printSeries(labelSeries)
+			if overflown then
+				break
+			end
+			printSeries({nextBreak})
+			if overflown then
+				textPos = nextBreakStart
+				break
+			end
+			labelSeries = {}
+		else
+			table.insert(labelSeries, nextBreak)
+		end
+		
+		textPos = nextBreakEnd + 1
+		--textPos = utf8.offset(text, 2, nextBreakEnd)
+	end
+	
+	if not overflown then
+		printSeries(labelSeries)
+	end
+
+	----- Alignment layout -----
+	local listLayout = Instance.new("UIListLayout")
+	listLayout.HorizontalAlignment = properties.ContainerHorizontalAlignment
+	listLayout.VerticalAlignment = properties.ContainerVerticalAlignment
+	listLayout.Parent = frame
+	
+	----- Calculate content size -----
+	local contentHeight = 0
+	local contentLeft = frame.AbsoluteSize.X
+	local contentRight = 0
+	for _, lineFrame in pairs(lineFrames) do
+		contentHeight = contentHeight + lineFrame.Size.Y.Offset
+		local container = lineFrame.Container
+		local left, right
+		if container.AnchorPoint.X == 0 then
+			left = container.Position.X.Offset
+			right = container.Size.X.Offset
+		elseif container.AnchorPoint.X == 0.5 then
+			left = lineFrame.AbsoluteSize.X / 2 - container.Size.X.Offset / 2
+			right = lineFrame.AbsoluteSize.X / 2 + container.Size.X.Offset / 2
+		elseif container.AnchorPoint.X == 1 then
+			left = lineFrame.AbsoluteSize.X - container.Size.X.Offset
+			right = lineFrame.AbsoluteSize.X
+		end
+		contentLeft = math.min(contentLeft, left)
+		contentRight = math.max(contentRight, right)
+	end
+	
+	----- Animation -----
+	animationCount = animationCount + 1
+	local animationDone = false
+	local allTextReached = false
+	local overrideYield = false
+	local animationRenderstepBinding = "TextAnimation"..animationCount
+	local animateQueue = {}
+	
+	local function updateAnimations()
+		if allTextReached and #animateQueue == 0 or animationDone then
+			animationDone = true
+			runService:UnbindFromRenderStep(animationRenderstepBinding)
+			animateQueue = {}
+			return
+		end
+
+		local t = tick()
+		for i = #animateQueue, 1, -1 do
+			local set = animateQueue[i]
+			local properties = set.Settings
+			local animateStyle = animationStyles[properties.AnimateStyle]
+			if not animateStyle then
+				warn("No animation style found for: ", properties.AnimateStyle, ", defaulting to Appear")
+				animateStyle = animationStyles.Appear
+			end
+			local animateAlpha = math.min((t - set.Start) / properties.AnimateStyleTime, 1)
+			animateStyle(set.Char, animateAlpha, properties) 
+			if animateAlpha >= 1 then
+				table.remove(animateQueue, i)
+			end
+		end
+	end
+	
+	local function setFrameToDefault(frame)
+		frame.Position = frameProperties[frame].InitialPosition
+		frame.Size = frameProperties[frame].InitialSize
+		frame.AnchorPoint = frameProperties[frame].InitialAnchorPoint
+		for name, value in pairs(frameProperties[frame]) do
+			applyProperty(name, value, frame)
+		end
+	end
+
+	local function setGroupVisible(frame, visible)
+		frame.Visible = visible
+		for _, v in pairs(frame:GetChildren()) do
+			v.Visible = visible
+			if visible then
+				setFrameToDefault(v)
+			end
+		end
+		if visible and frame:IsA("ImageLabel") then
+			setFrameToDefault(frame)
+		end
+	end
+
+	local function animate(waitForAnimationToFinish)
+		animationDone = false
+		runService:BindToRenderStep(animationRenderstepBinding, Enum.RenderPriority.Last.Value, updateAnimations)
+
+		local stepGrouping
+		local stepTime
+		local stepFrequency
+		local numAnimated
+		
+		-- Make everything invisible to start
+		for lineNum, list in pairs(textFrames) do
+			for _, frame in pairs(list) do
+				setGroupVisible(frame, false)
+			end
+		end
+	
+		local function animateCharacter(char, properties)
+			table.insert(animateQueue, {Char = char, Settings = properties, Start = tick()})
+		end
+		
+		local function yield()
+			if not overrideYield and numAnimated % stepFrequency == 0 and stepTime >= 0 then
+				local yieldTime = stepTime > 0 and stepTime or nil
+				wait(yieldTime)
+			end
+		end
+		
+		for lineNum, list in pairs(textFrames) do
+			for _, frame in pairs(list) do
+				local properties = frameProperties[frame]
+				if not (properties.AnimateStepGrouping  == stepGrouping) or not (properties.AnimateStepFrequency == stepFrequency) then
+					numAnimated = 0
+				end
+				stepGrouping = properties.AnimateStepGrouping
+				stepTime = properties.AnimateStepTime
+				stepFrequency = properties.AnimateStepFrequency
+			
+				if properties.AnimateYield > 0 then
+					wait(properties.AnimateYield)
+				end
+
+				if stepGrouping == "Word" or stepGrouping == "All" then
+					--if not (frame:IsA("TextLabel") and (frame.Text == " ")) then
+						if frame:IsA("TextLabel") then
+							frame.Visible = true
+							for _, v in pairs(frame:GetChildren()) do
+								animateCharacter(v, frameProperties[v])
+							end
+						else
+							animateCharacter(frame, properties)
+						end
+						if stepGrouping == "Word" then
+							numAnimated = numAnimated + 1
+							yield()
+						end
+					--end
+				elseif stepGrouping == "Letter" then
+					if frame:IsA("TextLabel") --[[and not (frame.Text == " ") ]]then
+						frame.Visible = true
+						local text = frame.Text
+						local i = 1
+						while true do
+							local v = frame:FindFirstChild(string.format("Char%03d", i))
+							if not v then
+								break
+							end
+							animateCharacter(v, frameProperties[v])
+							numAnimated = numAnimated + 1
+							yield()
+							if animationDone then
+								return
+							end
+							i = i + 1
+						end
+					else
+						animateCharacter(frame, properties)
+						numAnimated = numAnimated + 1
+						yield()
+					end
+				else
+					warn("Invalid step grouping: ", stepGrouping)
+				end
+				
+				if animationDone then
+					return
+				end
+			end
+		end
+			
+		allTextReached = true
+		
+		if waitForAnimationToFinish then
+			while #animateQueue > 0 do
+				runService.RenderStepped:Wait()
+			end
+		end	
+	end
+	
+
+
+	local textObject = {}
+	
+	----- Overflowing -----
+	
+	textObject.Overflown = overflown
+	textObject.OverflowPickupIndex = textPos
+	textObject.StartingProperties = startingProperties
+	textObject.OverflowPickupProperties = properties
+	textObject.Text = text
+
+	if prevTextObject then
+		prevTextObject.NextTextObject = textObject
+	end
+	
+	-- to overflow: check if textObject.Overflown, then use richText:ContinueOverflow(newFrame, textObject) to continue to another frame.
+	
+	
+	----- Return object API -----
+
+	textObject.ContentSize = Vector2.new(contentRight - contentLeft, contentHeight)
+
+	function textObject:Animate(yield)
+		if yield then
+			animate()
+		else
+			coroutine.wrap(animate)()
+		end
+		if self.NextTextObject then
+			self.NextTextObject:Animate(yield)
+		end
+	end
+	
+	function textObject:Show(finishAnimation)
+		if finishAnimation then
+			overrideYield = true
+		else
+			animationDone = true
+			for lineNum, list in pairs(textFrames) do
+				for _, frame in pairs(list) do
+					setGroupVisible(frame, true)
+				end
+			end
+		end
+		if self.NextTextObject then
+			self.NextTextObject:Show(finishAnimation)
+		end
+	end
+	
+	function textObject:Hide()
+		animationDone = true
+		for lineNum, list in pairs(textFrames) do
+			for _, frame in pairs(list) do
+				setGroupVisible(frame, false)
+			end
+		end
+		if self.NextTextObject then
+			self.NextTextObject:Hide()
+		end
+	end
+	
+	return textObject
+end
+
+
+function richText:ContinueOverflow(newFrame, prevTextObject)
+	return richText:New(newFrame, nil, nil, false, prevTextObject)
+end
+
+
+return richText
+]]></ProtectedString>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+			</Item>
+		</Item>
 	</Item>
 	<Item class="LocalizationService" referent="RBX7DD286A0587B47FD99FF2435423D55EC">
 		<Properties>
@@ -621,12 +4061,6 @@ gameCore:load()]]></ProtectedString>
 				<BinaryString name="Tags"></BinaryString>
 			</Properties>
 		</Item>
-		<Item class="Folder" referent="RBX08AFBBC0ECF04EF788B60315CF143C54">
-			<Properties>
-				<string name="Name">coremodule</string>
-				<BinaryString name="Tags"></BinaryString>
-			</Properties>
-		</Item>
 		<Item class="Folder" referent="RBXD36DD188EA6E41CE934230F9B3FA5C08">
 			<Properties>
 				<string name="Name">module</string>
@@ -655,33 +4089,6 @@ gameCore:load()]]></ProtectedString>
 					<string name="Name">module</string>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
-				<Item class="ModuleScript" referent="RBXBECB1BB7D0A3436F861ECF6F35E8CB8E">
-					<Properties>
-						<Content name="LinkedSource"><null></null></Content>
-						<string name="Name">FooProducer</string>
-						<string name="ScriptGuid">{1F90ED83-EEBF-4330-A724-A1121FE148B2}</string>
-						<ProtectedString name="Source"><![CDATA[local ReplicatedStorage = game:GetService("ReplicatedStorage")
-
-local lib = ReplicatedStorage:WaitForChild("lib")
-
-local PizzaAlpaca = require(lib:WaitForChild("PizzaAlpaca"))
-
-local FooProducer = PizzaAlpaca.GameModule:extend("FooProducer")
-
-
-function FooProducer:preInit()
-    self.logger = self.core:getModule("Logger")
-end
-
-function FooProducer:init()
-    self.logger:log(self, self.logger.logtype.OUTPUT, "Foo") -- log(module, severity, str) produces an output like "[{module}]: {str}"
-end
-
-
-return FooProducer]]></ProtectedString>
-						<BinaryString name="Tags"></BinaryString>
-					</Properties>
-				</Item>
 				<Item class="ModuleScript" referent="RBX3F7D0F7D7BDA47D992FEFF1D4304D2D9">
 					<Properties>
 						<Content name="LinkedSource"><null></null></Content>
@@ -712,9 +4119,7 @@ local printFuncs = {
     [logtype.WARNING] = warn,
     [logtype.SEVERE] = function(msg)
         -- Todo: send this to a webserver so nim can review it
-        spawn(function()
-            error(msg) -- delicious red text.
-        end)
+        error(msg,3) -- delicious red text.
     end
 }
 
@@ -728,6 +4133,134 @@ function Logger:log(module, severity, msg)
 end
 
 return Logger]]></ProtectedString>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+				</Item>
+			</Item>
+			<Item class="Folder" referent="RBX91DDE69F84DD4768A6FDF350B9AC5CEC">
+				<Properties>
+					<string name="Name">util</string>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+				<Item class="ModuleScript" referent="RBXDF561E402F7A454BABF65AD37CFBE81D">
+					<Properties>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">compileSubmodulesToArray</string>
+						<string name="ScriptGuid">{3D76AC3B-BABF-4489-9429-3BFEB59CCD8D}</string>
+						<ProtectedString name="Source"><![CDATA[return function(parent, recursive)
+    local compiled = {}
+    local children = (recursive and parent:GetDescendants()) or parent:GetChildren()
+
+    for _,moduleScript in pairs(children) do
+        if moduleScript:IsA("ModuleScript") then
+            local required = require(moduleScript)
+            table.insert(compiled, required)
+        end
+    end
+
+    return compiled
+end]]></ProtectedString>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+				</Item>
+				<Item class="ModuleScript" referent="RBX76F2866D8FA045DF93A2B11AA66D7C84">
+					<Properties>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">compileSubmodules</string>
+						<string name="ScriptGuid">{BF621D8E-669B-4CD2-9CC6-42A963828D13}</string>
+						<ProtectedString name="Source"><![CDATA[local function indexByName(moduleScript)
+    return moduleScript.Name
+end
+
+return function(parent, recursive, indexFunc)
+    indexFunc = indexFunc or indexByName
+    local compiled = {}
+    local children = (recursive and parent:GetDescendants()) or parent:GetChildren()
+
+    for _,moduleScript in pairs(children) do
+        if moduleScript:IsA("ModuleScript") then
+            compiled[indexFunc(moduleScript)] = require(moduleScript)
+        end
+    end
+
+    return compiled
+end]]></ProtectedString>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+				</Item>
+				<Item class="ModuleScript" referent="RBX9AD7FD76553D4227B1DE0CFE8955CE86">
+					<Properties>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">None</string>
+						<string name="ScriptGuid">{9DB7F080-C797-45FD-9E49-C87E5B06CA89}</string>
+						<ProtectedString name="Source"><![CDATA[-- Author: Lucien Greathouse
+-- https://github.com/LPGhatguy/rdc-project/blob/master/src/common/None.lua
+--[[
+	Represents a value that is intentionally present, but should be interpreted
+	as `nil`.
+	None is used by included utilities to make removing values more ergonomic.
+]]
+
+local None = newproxy(true)
+
+getmetatable(None).__tostring = function()
+	return "None"
+end
+
+return None]]></ProtectedString>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+				</Item>
+				<Item class="ModuleScript" referent="RBX197437816F6048D3B538D78A135431A6">
+					<Properties>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">Dictionary</string>
+						<string name="ScriptGuid">{9FE910AE-5FB1-4278-8DCB-0A4A3D2E2C69}</string>
+						<ProtectedString name="Source"><![CDATA[-- Author: Lucien Greathouse
+-- https://github.com/LPGhatguy/rdc-project/blob/master/src/common/Dictionary.lua
+--[[
+	Defines utilities for working with 'dictionary-like' tables.
+	This file, along with None.lua, come from a library we'll be releasing soon
+	called Cryo. It has a set of utilities, like this one, to help make working
+	with immutable data structures easier.
+	Dictionaries can be indexed by any value, but don't have the ordering
+	expectations that lists have.
+]]
+
+local None = require(script.Parent.None)
+
+--[[
+	Combine a number of dictionary-like tables into a new table.
+	Keys specified in later tables will overwrite keys in previous tables.
+	Use `None` as a value to remove a key. This is necessary because
+	Lua does not distinguish between a value not being present in a table and a
+	value being `nil`.
+]]
+local function join(...)
+	local new = {}
+
+	for i = 1, select("#", ...) do
+		local source = select(i, ...)
+
+		if source ~= nil then
+			for key, value in pairs(source) do
+				if value == None then
+					new[key] = nil
+				else
+					new[key] = value
+				end
+			end
+		end
+	end
+
+	return new
+end
+
+return {
+	None = None,
+	merge = join,
+	join = join,
+}]]></ProtectedString>
 						<BinaryString name="Tags"></BinaryString>
 					</Properties>
 				</Item>
@@ -11284,6 +14817,894 @@ end
 					</Properties>
 				</Item>
 			</Item>
+			<Item class="ModuleScript" referent="RBXB0D39E6638DE44078EBEA993D9BF16AB">
+				<Properties>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">RichText</string>
+					<string name="ScriptGuid">{8C3E83C3-8B41-4BAB-9443-94FE89FC5C54}</string>
+					<ProtectedString name="Source"><![CDATA[--[[
+	
+Rich text markup with support for modifying any TextLabel property per character + inline images + entrance animations
+
+Written by Defaultio ~ August 30 2017
+
+Changes:	
+	October 21 2017 - Unicode support added thanks to Tiffany Bennett - https://gist.github.com/tiffany352/ccb3559738f4e8d4152d940126998c41
+	January 29 2017 - Added finishAnimate parameter to RichTextObject:Show() function
+					- Fixed bug on iOS devices causing some characters to fail to appear. Using TextWrapped = false on character labels fixed this, thanks Buildthomas.
+
+
+			TODO:
+				- exit animations
+				- emphasis animations
+				- support for inline buttons
+				- sounds for each text step
+				- markup events that will fire a callback provided in the constructor when the text animation is reached, use for character animations, etc
+			
+			Let me know if these features will be useful and I'll add them more quickly.
+
+___________________________________________________________________________________________________________________
+
+API:
+
+Constructor:
+
+	RichText:New(GuiObject frame, String text, Dictionary startingProperties = {}, Boolean allowOverflow = true)
+		frame: the parent frame which will be populated with text
+		text: self explanitory
+		startingProperties: a dictionary of what the default text properties should be
+		allowOverflow: if false, text will stop rendering when it fills the vertical height of the frame. To continue the text in another frame, see RichText:ContinueOverflow() below...
+		
+		returns: richText object
+			
+	RichText:ContinueOverflow(GuiObject nextFrame, RichTextObject previousRichTextObject)
+		nextFrame: the parent frame that text will continue into
+		previousRichTextObject: the previous RichTextObject that is being overflown from.
+		
+		returns: richTextObject
+	
+			
+RichText Object: (returned by constructor)
+
+	RichTextObject:Animate(doYield = false)
+		Will run the animation. If doYield is true, the thread will yield until the animation is complete. Else, it will wrap the animation function in a coroutine
+		
+	RichTextObject:Show(finishAnimation = false)
+		Shows the entirety of the text body. Will interrupt and stop the animation if it's running. if finishAnimation is true, the remaining text will animate in instead of appearing instantly.
+		
+	RichTextObject:Hide()
+		Hides the text body. Will interrupt and stop the animation if it's running. The animation can be replayed after hiding.
+		
+	
+	Vector2 RichTextObject.ContentSize
+		Content size in pixels
+		
+	Boolean RichTextObject.Overflown
+		If allowOverflow was false, this value shows if the text is overflown or if it fit in the frame. If overflown, use RichText:ContinueOverflow to continue into a new frame.
+		
+
+
+___________________________________________________________________________________________________________________
+
+USAGE:
+
+The text supplied in the constructor can be any text string. Insert a markup modifier by including <MarkupKey=MarkupValue>. No spaces.
+
+	Examples of what this looks like include:
+		<Font=ArialBold> --Set the font to ArialBold
+		<Img=639588687> -- Insert an inline image with this ID
+		<AnimateStepTime=0.4> -- Set the animate step time to 0.4 seconds.
+		<AnimateYield=1> -- Yield for one second at this point in the animation
+		<TextColor3=1,0,0> -- Set text color to red
+		<Color=Red> -- Equivalent to above. The shortcut for the property name is defined in the propertyShortcuts table, and the color shortcut is defined in the colors table.
+		
+	After you set any markup value, you can revert it back to default later by setting it to "/". For example:
+		<Font=/>
+		<AnimateStepTime=/>
+		<Color=/>
+		
+	Default values are defined by values in the "default" table below, or by values supplied in the startingProperties dictionary when the object is constructed.
+
+Currently does not support escapement characters for < and >, so you can't use these characters in the text string.
+
+
+To when using RichText:ContinueOverflow, calling Animate(), Show(), or Hide() on the initial RichText object will pass this call onto subsequent overflown rich text objects, so
+only a call to the first object is neccessary. See example.
+
+___________________________________________________________________________________________________________________
+
+Example code:
+
+	local richText = require(richTextModule)
+	local text = "Hello world!\nLine two! <AnimateDelay=1><Img=Thinking>"
+	local textObject = richText:New(frame, text)
+	textObject:Animate(true)
+	print("Animation done!")
+
+
+Example string 1: Basic
+
+	local text = "<Font=SourceSansBold><TextScale=0.3>Oh!<TextScale=/><Font=/><AnimateYield=1> I didn't see you there<AnimateStepFrequency=1><AnimateStepTime=0.4> . . .<AnimateStepFrequency=/><AnimateStepTime=/>\n I wasn't expecting <Color=255,0,0>you<Color=/>. Please forgive the state of my room.<AnimateYield=1><Img=639588687>"
+	
+	--This yields this result: https://twitter.com/Defaultio/status/903094769617747968
+
+
+Example string 2: Wind Waker
+
+	Insert the WindWakerExample ScreenGui in this module into StarterGui.
+	Insert this module into WindWakerExample.
+	Ensure WindWakerExample.LocalText is not Disabled.
+	
+	-- This yields this result: https://twitter.com/Defaultio/status/903138250054709248
+	
+	
+Example string 3: Text-in animations
+
+	local text = "This text is about to be <Color=Green><AnimateStyle=Wiggle><AnimateStepFrequency=1><AnimateStyleTime=2>wiggly<AnimateStyle=/><AnimateStepFrequency=/><AnimateStyleTime=/><Color=/>!<AnimateYield=1.5>\nIt can also be <Color=Red><AnimateStyle=Fade><AnimateStepFrequency=1><AnimateStyleTime=0.5>fadey fadey<AnimateStyle=/><AnimateStepFrequency=/><AnimateStyleTime=/><Color=/>!<AnimateYield=1>\n<AnimateStyle=Rainbow><AnimateStyleTime=2>Or rainbow!!! :O<AnimateStyle=/><AnimateStyleTime=/><AnimateYield=1>\n<AnimateStyle=Swing><AnimateStyleTime=3>Make custom animations!"
+	
+	-- This yields this result: https://twitter.com/Defaultio/status/903346975688425472
+	
+	
+Example string 4: Variable text justification per line
+
+	local text = "Have you ever <Color=Red>thought<Color=/><AnimateStepFrequency=1><AnimateStepTime=0.4> . . .<AnimateStepFrequency=/><AnimateStepTime=/><AnimateYield=1><ContainerHorizontalAlignment=Center>\n<TextScale=0.5><AnimateStyle=Rainbow><AnimateStyleTime=2.5><Img=Thinking><AnimateStyle=/><TextScale=/><AnimateYield=3><ContainerHorizontalAlignment=Right>\n<Color=Green><AnimateStyle=Spin><AnimateStyleTime=1.5>Wow<AnimateStyle=/><Color=/>!"
+
+	-- This yields this result: https://twitter.com/Defaultio/status/903381787467956224
+
+Example 5: Overflowing
+
+	Insert the OverflowingExample ScreenGui in this module into StarterGui.
+	Inert this module into the OverflowingExample ScreenGui.
+	Ensure OverflowingExample.LocalText is not disabled.
+	
+	-- This yields this result: https://twitter.com/Defaultio/status/918619989107621888
+
+___________________________________________________________________________________________________________________	
+	
+--]]
+
+local richText = {}
+
+--------- SHORTCUTS ---------
+
+-- Color shortcuts: you can use these strings instead of full property names
+local propertyShortcuts = {}
+propertyShortcuts.Color = "TextColor3"
+propertyShortcuts.StrokeColor = "TextStrokeColor3"
+propertyShortcuts.ImageColor = "ImageColor3"
+
+-- Color shortcuts: you can use these strings instead of defining exact color values
+richText.ColorShortcuts = {}
+richText.ColorShortcuts.White = Color3.new(1, 1, 1)
+richText.ColorShortcuts.Black = Color3.new(0, 0, 0)
+richText.ColorShortcuts.Red = Color3.new(1, 0.4, 0.4)
+richText.ColorShortcuts.Green = Color3.new(0.4, 1, 0.4)
+richText.ColorShortcuts.Blue = Color3.new(0.4, 0.4, 1)
+richText.ColorShortcuts.Cyan = Color3.new(0.4, 0.85, 1)
+richText.ColorShortcuts.Orange = Color3.new(1, 0.5, 0.2)
+richText.ColorShortcuts.Yellow = Color3.new(1, 0.9, 0.2)
+
+-- Image shortcuts: you can use these string instead of using image ids
+richText.ImageShortcuts = {}
+richText.ImageShortcuts.Eggplant = 639588687
+richText.ImageShortcuts.Thinking = 955646496
+richText.ImageShortcuts.Sad = 947900188
+richText.ImageShortcuts.Happy = 414889555
+richText.ImageShortcuts.Despicable = 711674643
+
+--------- DEFAULTS ---------
+
+local defaults = {}
+
+--Text alignment default properties
+defaults.ContainerHorizontalAlignment = "Left" -- Align,ent of text within frame container
+defaults.ContainerVerticalAlignment = "Center" 
+defaults.TextYAlignment = "Bottom" -- Alignment of the text on the line, only makes a difference if the line has variable text sizes
+
+-- Text size default properties
+defaults.TextScaled = true
+defaults.TextScaleRelativeTo = "Frame" -- "Frame" or "Screen" If Frame, will scale relative to vertical size of the parent frame. If Screen, will scale relative to vertical size of the ScreenGui.
+defaults.TextScale = 0.25 -- If you want the frame to have a nominal count of n lines of text, make this value 1 / n. For four lines, 1 / 4 = 0.25.
+defaults.TextSize = 20 -- Only applicable if TextScaled = false
+
+-- TextLabel default properties
+defaults.Font = "SourceSans"
+defaults.TextColor3 = "White"
+defaults.TextStrokeColor3 = "Black"
+defaults.TextTransparency = 0
+defaults.TextStrokeTransparency = 1
+defaults.BackgroundTransparency = 1
+defaults.BorderSizePixel = 0
+
+-- Image label default properties
+defaults.ImageColor3 = "White"
+defaults.ImageTransparency = 0
+defaults.ImageRectOffset = "0,0"
+defaults.ImageRectSize = "0,0"
+
+-- Text animation default properties
+	-- character appearance timing:
+defaults.AnimateStepTime = 0 -- Seconds between newframes
+defaults.AnimateStepGrouping = "Letter" -- "Word" or "Letter" or "All"
+defaults.AnimateStepFrequency = 4 -- How often to step, 1 is all, 2 is step in pairs, 3 is every three, etc.
+	-- yielding:
+defaults.AnimateYield = 0 -- Set this markup to yield
+	-- entrance style parameters:
+defaults.AnimateStyle = "Appear"
+defaults.AnimateStyleTime = 0.5 -- How long it takes for an entrance style to fully execute
+defaults.AnimateStyleNumPeriods = 3 -- Used differently for each entrance style
+defaults.AnimateStyleAmplitude = 0.5 -- Used differently for each entrance style
+
+
+--------- ENTRANCE ANIMATION FUNCTIONS ---------
+
+-- These are functions responsible for animating how text enters. The functions are passed:
+	-- characters: A list of the characters to be animated.
+	-- animateAlpha: A value of 0 - 1 that represents the lifetime of the animation
+	-- properties: A dictionary of all the properties at that character, including InitialSize and InitialPosition
+	
+local animationStyles = {}
+
+function animationStyles.Appear(character)
+	character.Visible = true
+end
+
+function animationStyles.Fade(character, animateAlpha, properties)
+	character.Visible = true
+	if character:IsA("TextLabel") then
+		character.TextTransparency = 1 - (animateAlpha * (1 - properties.TextTransparency))
+	elseif character:IsA("ImageLabel") then
+		character.ImageTransparency = 1 - (animateAlpha * (1 - properties.ImageTransparency))
+	end
+end
+
+function animationStyles.Wiggle(character, animateAlpha, properties)
+	character.Visible = true
+	local amplitude = properties.InitialSize.Y.Offset * (1 - animateAlpha) * properties.AnimateStyleAmplitude
+	character.Position = properties.InitialPosition + UDim2.new(0, 0, 0, math.sin(animateAlpha * math.pi * 2 * properties.AnimateStyleNumPeriods) * amplitude / 2)
+end
+
+function animationStyles.Swing(character, animateAlpha, properties)
+	character.Visible = true
+	local amplitude = 90 * (1 - animateAlpha) * properties.AnimateStyleAmplitude
+	character.Rotation = math.sin(animateAlpha * math.pi * 2 * properties.AnimateStyleNumPeriods) * amplitude
+end
+
+function animationStyles.Spin(character, animateAlpha, properties)
+	character.Visible = true
+	character.Position = properties.InitialPosition + UDim2.new(0, properties.InitialSize.X.Offset / 2, 0, properties.InitialSize.Y.Offset / 2)
+	character.AnchorPoint = Vector2.new(0.5, 0.5)
+	character.Rotation = animateAlpha * properties.AnimateStyleNumPeriods * 360
+end
+
+function animationStyles.Rainbow(character, animateAlpha, properties)
+	character.Visible = true
+	local rainbowColor = Color3.fromHSV(animateAlpha * properties.AnimateStyleNumPeriods % 1, 1, 1)
+	if character:IsA("TextLabel") then
+		local initialColor = getColorFromString(properties.TextColor3)
+		character.TextColor3 = Color3.new(rainbowColor.r + animateAlpha * (initialColor.r - rainbowColor.r), rainbowColor.g + animateAlpha * (initialColor.g - rainbowColor.g), rainbowColor.b + animateAlpha * (initialColor.b - rainbowColor.b))
+	else
+		local initialColor = getColorFromString(properties.ImageColor3)
+		character.ImageColor3 = Color3.new(rainbowColor.r + animateAlpha * (initialColor.r - rainbowColor.r), rainbowColor.g + animateAlpha * (initialColor.g - rainbowColor.g), rainbowColor.b + animateAlpha * (initialColor.b - rainbowColor.b))
+	end
+end
+
+
+--------- MODULE BEGIN ---------
+
+local textService = game:GetService("TextService")
+local runService = game:GetService("RunService")
+local animationCount = 0
+
+function getLayerCollector(frame)
+	if not frame then
+		return nil
+	elseif frame:IsA("LayerCollector") then
+		return frame
+	elseif frame and frame.Parent then
+		return getLayerCollector(frame.Parent)
+	else
+		return nil
+	end
+end
+
+function shallowCopy(tab)
+	local ret = {}
+	for key, value in pairs(tab) do
+		ret[key] = value
+	end
+	return ret
+end
+
+function getColorFromString(value)
+	if richText.ColorShortcuts[value] then
+		 return richText.ColorShortcuts[value]
+	else
+		local r, g, b = value:match("(%d+),(%d+),(%d+)")
+		return Color3.new(r / 255, g / 255, b / 255)
+	end
+end
+
+function getVector2FromString(value)
+	local x, y = value:match("(%d+),(%d+)")
+	return Vector2.new(x, y)
+end
+
+function setHorizontalAlignment(frame, alignment)
+	if alignment == "Left" then
+		frame.AnchorPoint = Vector2.new(0, 0)
+		frame.Position = UDim2.new(0, 0, 0, 0)
+	elseif alignment == "Center" then
+		frame.AnchorPoint = Vector2.new(0.5, 0)
+		frame.Position = UDim2.new(0.5, 0, 0, 0)
+	elseif alignment == "Right" then
+		frame.AnchorPoint = Vector2.new(1, 0)
+		frame.Position = UDim2.new(1, 0, 0, 0)
+	end
+end
+
+function richText:New(frame, text, startingProperties, allowOverflow, prevTextObject)
+	for _, v in pairs(frame:GetChildren()) do
+		v:Destroy()
+	end
+	if allowOverflow == nil then
+		allowOverflow = true
+	end
+	
+	local properties = {}
+	local defaultProperties = {}
+	if prevTextObject then
+		text = prevTextObject.Text
+		startingProperties = prevTextObject.StartingProperties
+	end
+	
+	local lineFrames = {}
+	local textFrames = {}
+	local frameProperties = {}
+	local linePosition = 0
+	local overflown = false
+	local textLabel = Instance.new("TextLabel")
+	local imageLabel = Instance.new("ImageLabel")
+	local layerCollector = getLayerCollector(frame)
+	
+	local applyProperty, applyMarkup, formatLabel, printText, printImage, printSeries
+	
+	----- Apply properties / markups -----
+	function applyMarkup(key, value)
+		key = propertyShortcuts[key] or key
+		if value == "/" then
+			if defaultProperties[key] then
+				value = defaultProperties[key]
+			else
+				warn("Attempt to default <"..key.."> to value with no default")
+			end
+		end
+		if tonumber(value) then
+			value = tonumber(value)
+		elseif value == "false" or value == "true" then
+			value = value == "true"
+		end
+		properties[key] = value
+		
+		if applyProperty(key, value) then
+			-- Ok
+		elseif key == "ContainerHorizontalAlignment" and lineFrames[#lineFrames] then
+			setHorizontalAlignment(lineFrames[#lineFrames].Container, value)
+		elseif defaults[key] then
+			-- Ok
+		elseif key == "Img" then
+			printImage(value)
+		else
+			-- Unknown value
+			return false	
+		end
+		return true
+	end
+	
+	function applyProperty(name, value, frame)
+		local propertyType
+		local ret = false
+		for _, label in pairs(frame and {frame} or {textLabel, imageLabel}) do
+			local isProperty = pcall(function() propertyType = typeof(label[name]) end) -- is there a better way to check if it's a property?
+			if isProperty then
+				if propertyType == "Color3" then
+					label[name] = getColorFromString(value)
+				elseif propertyType == "Vector2" then
+					label[name] = getVector2FromString(value)
+				else
+					label[name] = value	
+				end
+				ret = true	
+			end
+		end
+		return ret
+	end
+	
+	----- Set up default properties -----
+	for name, value in pairs(defaults) do
+		applyMarkup(name, value)
+		defaultProperties[propertyShortcuts[name] or name] = properties[propertyShortcuts[name] or name]
+	end
+	for name, value in pairs(startingProperties or {}) do
+		applyMarkup(name, value)
+		defaultProperties[propertyShortcuts[name] or name] = properties[propertyShortcuts[name] or name]
+	end
+	
+	if prevTextObject then
+		properties = prevTextObject.OverflowPickupProperties
+		for name, value in pairs(properties) do
+			applyMarkup(name, value)
+		end
+	end
+	
+	----- Get vertical size -----
+	local function getTextSize()
+		if properties.TextScaled == true then
+			local relativeHeight
+			if properties.TextScaleRelativeTo == "Screen" then
+				relativeHeight = layerCollector.AbsoluteSize.Y
+			elseif properties.TextScaleRelativeTo == "Frame" then
+				relativeHeight = frame.AbsoluteSize.Y
+			end
+			return math.min(properties.TextScale * relativeHeight, 100)
+		else
+			return properties.TextSize
+		end
+	end
+	
+	----- Lines -----
+	local contentHeight = 0
+	local function newLine()
+		local lastLineFrame = lineFrames[#lineFrames]
+		if lastLineFrame then
+			contentHeight = contentHeight + lastLineFrame.Size.Y.Offset
+			if not allowOverflow and contentHeight + getTextSize() > frame.AbsoluteSize.Y then
+				overflown = true
+				return
+			end
+		end
+		local lineFrame = Instance.new("Frame")
+		lineFrame.Name = string.format("Line%03d", #lineFrames + 1)
+		lineFrame.Size = UDim2.new(0, 0, 0, 0)
+		lineFrame.BackgroundTransparency = 1		
+		local textContainer = Instance.new("Frame", lineFrame)
+		textContainer.Name = "Container"
+		textContainer.Size = UDim2.new(0, 0, 0, 0)
+		textContainer.BackgroundTransparency = 1
+		setHorizontalAlignment(textContainer, properties.ContainerHorizontalAlignment)
+		lineFrame.Parent = frame
+		table.insert(lineFrames, lineFrame)
+		textFrames[#lineFrames] = {}
+		linePosition = 0
+	end
+	newLine()
+	
+	----- Label printing -----
+	local function addFrameProperties(frame)
+		frameProperties[frame] = shallowCopy(properties)
+		frameProperties[frame].InitialSize = frame.Size
+		frameProperties[frame].InitialPosition = frame.Position
+		frameProperties[frame].InitialAnchorPoint = frame.AnchorPoint
+	end
+	
+	function formatLabel(newLabel, labelHeight, labelWidth, endOfLineCallback)
+		local lineFrame = lineFrames[#lineFrames]
+		
+		local verticalAlignment = tostring(properties.TextYAlignment)
+		if verticalAlignment  == "Top" then
+			newLabel.Position = UDim2.new(0, linePosition, 0, 0)
+			newLabel.AnchorPoint = Vector2.new(0, 0)
+		elseif verticalAlignment  == "Center" then
+			newLabel.Position = UDim2.new(0, linePosition, 0.5, 0)
+			newLabel.AnchorPoint = Vector2.new(0, 0.5)
+		elseif verticalAlignment  == "Bottom" then
+			newLabel.Position = UDim2.new(0, linePosition, 1, 0)
+			newLabel.AnchorPoint = Vector2.new(0, 1)
+		end
+		
+		linePosition = linePosition + labelWidth
+		if linePosition > frame.AbsoluteSize.X and not (linePosition == labelWidth) then
+			-- Newline, get rid of label and retry it on the next line
+			newLabel:Destroy()
+			local lastLabel = textFrames[#lineFrames][#textFrames[#lineFrames]]
+			if lastLabel:IsA("TextLabel") and lastLabel.Text == " " then -- get rid of trailing space
+				lineFrame.Container.Size = UDim2.new(0, linePosition - labelWidth - lastLabel.Size.X.Offset, 1, 0)
+				lastLabel:Destroy()
+				table.remove(textFrames[#lineFrames])
+			end
+			newLine()
+			endOfLineCallback()
+		else
+			-- Label is ok
+			newLabel.Size = UDim2.new(0, labelWidth, 0, labelHeight)
+			lineFrame.Container.Size = UDim2.new(0, linePosition, 1, 0)
+			lineFrame.Size = UDim2.new(1, 0, 0, math.max(lineFrame.Size.Y.Offset, labelHeight))
+			newLabel.Name = string.format("Group%03d", #textFrames[#lineFrames] + 1)
+			newLabel.Parent = lineFrame.Container
+			table.insert(textFrames[#lineFrames], newLabel)
+			addFrameProperties(newLabel)
+			properties.AnimateYield = 0
+		end
+	end
+	
+	function printText(text)
+		if text == "\n" then
+			newLine()
+			return
+		elseif text == " " and linePosition == 0 then
+			return -- no leading spaces
+		end
+		
+		local textSize = getTextSize()
+		local textWidth = textService:GetTextSize(text, textSize, textLabel.Font, Vector2.new(layerCollector.AbsoluteSize.X, textSize)).X
+		
+		local newTextLabel = textLabel:Clone()
+		newTextLabel.TextScaled = false
+		newTextLabel.TextSize = textSize
+		newTextLabel.Text = text -- This text is never actually displayed. We just use it as a reference for knowing what the group string is.
+		newTextLabel.TextTransparency = 1
+		newTextLabel.TextStrokeTransparency = 1
+		newTextLabel.TextWrapped = false
+		
+		-- Keep the real text in individual frames per character:
+		local charPos = 0
+		local i = 1
+		for first, last in utf8.graphemes(text) do
+			local character = string.sub(text, first, last)
+			local characterWidth = textService:GetTextSize(character, textSize, textLabel.Font, Vector2.new(layerCollector.AbsoluteSize.X, textSize)).X
+			local characterLabel = textLabel:Clone()
+			characterLabel.Text = character
+			characterLabel.TextScaled = false
+			characterLabel.TextSize = textSize
+			characterLabel.Position = UDim2.new(0, charPos, 0, 0)
+			characterLabel.Size = UDim2.new(0, characterWidth, 0, textSize)
+			characterLabel.Name = string.format("Char%03d", i)
+			characterLabel.Parent = newTextLabel
+			characterLabel.Visible = false
+			addFrameProperties(characterLabel)
+			charPos = charPos + characterWidth
+			i = i + 1
+		end
+
+		formatLabel(newTextLabel, textSize, textWidth, function() if not overflown then printText(text) end end)
+	end
+	
+	function printImage(imageId)
+		local imageHeight = getTextSize()
+		local imageWidth = imageHeight -- Would be nice if we could get aspect ratio of image to get width properly.
+		
+		local newImageLabel = imageLabel:Clone()
+		
+		if richText.ImageShortcuts[imageId] then
+			newImageLabel.Image = typeof(richText.ImageShortcuts[imageId]) == "number" and "rbxassetid://"..richText.ImageShortcuts[imageId] or richText.ImageShortcuts[imageId]
+		else
+			newImageLabel.Image = "rbxassetid://"..imageId
+		end
+		newImageLabel.Size = UDim2.new(0, imageHeight, 0, imageWidth)
+		newImageLabel.Visible = false
+
+		formatLabel(newImageLabel, imageHeight, imageWidth, function() if not overflown then printImage(imageId) end end)
+	end
+	
+	function printSeries(labelSeries)	
+		for _, t in pairs(labelSeries) do
+			local markupKey, markupValue = string.match(t, "<(.+)=(.+)>")
+			if markupKey and markupValue then
+				if not applyMarkup(markupKey, markupValue) then
+					warn("Could not apply markup: ", t)
+				end			
+			else
+				printText(t)
+			end
+		end	
+	end
+	
+	----- Text traversal + parsing -----
+	local overflowText
+	local textPos = 1
+	local textLength = #text
+	local labelSeries = {}
+	
+	if prevTextObject then
+		textPos = prevTextObject.OverflowPickupIndex
+	end
+	
+	while textPos and textPos <= textLength do
+		local nextMarkupStart, nextMarkupEnd = string.find(text, "<.->", textPos)
+		local nextSpaceStart, nextSpaceEnd = string.find(text, "[ \t\n]", textPos)
+		
+		local nextBreakStart, nextBreakEnd, breakIsWhitespace
+		if nextMarkupStart and nextMarkupEnd and (not nextSpaceStart or nextMarkupStart < nextSpaceStart) then
+			nextBreakStart, nextBreakEnd = nextMarkupStart, nextMarkupEnd
+		else
+			nextBreakStart, nextBreakEnd = nextSpaceStart or textLength + 1, nextSpaceEnd or textLength + 1
+			breakIsWhitespace = true
+		end
+		
+		local nextWord = nextBreakStart > textPos and string.sub(text, textPos, nextBreakStart - 1) or nil
+		local nextBreak = nextBreakStart <= textLength and string.sub(text, nextBreakStart, nextBreakEnd) or nil
+		table.insert(labelSeries, nextWord)
+		
+		if breakIsWhitespace then
+			printSeries(labelSeries)
+			if overflown then
+				break
+			end
+			printSeries({nextBreak})
+			if overflown then
+				textPos = nextBreakStart
+				break
+			end
+			labelSeries = {}
+		else
+			table.insert(labelSeries, nextBreak)
+		end
+		
+		textPos = nextBreakEnd + 1
+		--textPos = utf8.offset(text, 2, nextBreakEnd)
+	end
+	
+	if not overflown then
+		printSeries(labelSeries)
+	end
+
+	----- Alignment layout -----
+	local listLayout = Instance.new("UIListLayout")
+	listLayout.HorizontalAlignment = properties.ContainerHorizontalAlignment
+	listLayout.VerticalAlignment = properties.ContainerVerticalAlignment
+	listLayout.Parent = frame
+	
+	----- Calculate content size -----
+	local contentHeight = 0
+	local contentLeft = frame.AbsoluteSize.X
+	local contentRight = 0
+	for _, lineFrame in pairs(lineFrames) do
+		contentHeight = contentHeight + lineFrame.Size.Y.Offset
+		local container = lineFrame.Container
+		local left, right
+		if container.AnchorPoint.X == 0 then
+			left = container.Position.X.Offset
+			right = container.Size.X.Offset
+		elseif container.AnchorPoint.X == 0.5 then
+			left = lineFrame.AbsoluteSize.X / 2 - container.Size.X.Offset / 2
+			right = lineFrame.AbsoluteSize.X / 2 + container.Size.X.Offset / 2
+		elseif container.AnchorPoint.X == 1 then
+			left = lineFrame.AbsoluteSize.X - container.Size.X.Offset
+			right = lineFrame.AbsoluteSize.X
+		end
+		contentLeft = math.min(contentLeft, left)
+		contentRight = math.max(contentRight, right)
+	end
+	
+	----- Animation -----
+	animationCount = animationCount + 1
+	local animationDone = false
+	local allTextReached = false
+	local overrideYield = false
+	local animationRenderstepBinding = "TextAnimation"..animationCount
+	local animateQueue = {}
+	
+	local function updateAnimations()
+		if allTextReached and #animateQueue == 0 or animationDone then
+			animationDone = true
+			runService:UnbindFromRenderStep(animationRenderstepBinding)
+			animateQueue = {}
+			return
+		end
+
+		local t = tick()
+		for i = #animateQueue, 1, -1 do
+			local set = animateQueue[i]
+			local properties = set.Settings
+			local animateStyle = animationStyles[properties.AnimateStyle]
+			if not animateStyle then
+				warn("No animation style found for: ", properties.AnimateStyle, ", defaulting to Appear")
+				animateStyle = animationStyles.Appear
+			end
+			local animateAlpha = math.min((t - set.Start) / properties.AnimateStyleTime, 1)
+			animateStyle(set.Char, animateAlpha, properties) 
+			if animateAlpha >= 1 then
+				table.remove(animateQueue, i)
+			end
+		end
+	end
+	
+	local function setFrameToDefault(frame)
+		frame.Position = frameProperties[frame].InitialPosition
+		frame.Size = frameProperties[frame].InitialSize
+		frame.AnchorPoint = frameProperties[frame].InitialAnchorPoint
+		for name, value in pairs(frameProperties[frame]) do
+			applyProperty(name, value, frame)
+		end
+	end
+
+	local function setGroupVisible(frame, visible)
+		frame.Visible = visible
+		for _, v in pairs(frame:GetChildren()) do
+			v.Visible = visible
+			if visible then
+				setFrameToDefault(v)
+			end
+		end
+		if visible and frame:IsA("ImageLabel") then
+			setFrameToDefault(frame)
+		end
+	end
+
+	local function animate(waitForAnimationToFinish)
+		animationDone = false
+		runService:BindToRenderStep(animationRenderstepBinding, Enum.RenderPriority.Last.Value, updateAnimations)
+
+		local stepGrouping
+		local stepTime
+		local stepFrequency
+		local numAnimated
+		
+		-- Make everything invisible to start
+		for lineNum, list in pairs(textFrames) do
+			for _, frame in pairs(list) do
+				setGroupVisible(frame, false)
+			end
+		end
+	
+		local function animateCharacter(char, properties)
+			table.insert(animateQueue, {Char = char, Settings = properties, Start = tick()})
+		end
+		
+		local function yield()
+			if not overrideYield and numAnimated % stepFrequency == 0 and stepTime >= 0 then
+				local yieldTime = stepTime > 0 and stepTime or nil
+				wait(yieldTime)
+			end
+		end
+		
+		for lineNum, list in pairs(textFrames) do
+			for _, frame in pairs(list) do
+				local properties = frameProperties[frame]
+				if not (properties.AnimateStepGrouping  == stepGrouping) or not (properties.AnimateStepFrequency == stepFrequency) then
+					numAnimated = 0
+				end
+				stepGrouping = properties.AnimateStepGrouping
+				stepTime = properties.AnimateStepTime
+				stepFrequency = properties.AnimateStepFrequency
+			
+				if properties.AnimateYield > 0 then
+					wait(properties.AnimateYield)
+				end
+
+				if stepGrouping == "Word" or stepGrouping == "All" then
+					--if not (frame:IsA("TextLabel") and (frame.Text == " ")) then
+						if frame:IsA("TextLabel") then
+							frame.Visible = true
+							for _, v in pairs(frame:GetChildren()) do
+								animateCharacter(v, frameProperties[v])
+							end
+						else
+							animateCharacter(frame, properties)
+						end
+						if stepGrouping == "Word" then
+							numAnimated = numAnimated + 1
+							yield()
+						end
+					--end
+				elseif stepGrouping == "Letter" then
+					if frame:IsA("TextLabel") --[[and not (frame.Text == " ") ]]then
+						frame.Visible = true
+						local text = frame.Text
+						local i = 1
+						while true do
+							local v = frame:FindFirstChild(string.format("Char%03d", i))
+							if not v then
+								break
+							end
+							animateCharacter(v, frameProperties[v])
+							numAnimated = numAnimated + 1
+							yield()
+							if animationDone then
+								return
+							end
+							i = i + 1
+						end
+					else
+						animateCharacter(frame, properties)
+						numAnimated = numAnimated + 1
+						yield()
+					end
+				else
+					warn("Invalid step grouping: ", stepGrouping)
+				end
+				
+				if animationDone then
+					return
+				end
+			end
+		end
+			
+		allTextReached = true
+		
+		if waitForAnimationToFinish then
+			while #animateQueue > 0 do
+				runService.RenderStepped:Wait()
+			end
+		end	
+	end
+	
+
+
+	local textObject = {}
+	
+	----- Overflowing -----
+	
+	textObject.Overflown = overflown
+	textObject.OverflowPickupIndex = textPos
+	textObject.StartingProperties = startingProperties
+	textObject.OverflowPickupProperties = properties
+	textObject.Text = text
+
+	if prevTextObject then
+		prevTextObject.NextTextObject = textObject
+	end
+	
+	-- to overflow: check if textObject.Overflown, then use richText:ContinueOverflow(newFrame, textObject) to continue to another frame.
+	
+	
+	----- Return object API -----
+
+	textObject.ContentSize = Vector2.new(contentRight - contentLeft, contentHeight)
+
+	function textObject:Animate(yield)
+		if yield then
+			animate()
+		else
+			coroutine.wrap(animate)()
+		end
+		if self.NextTextObject then
+			self.NextTextObject:Animate(yield)
+		end
+	end
+	
+	function textObject:Show(finishAnimation)
+		if finishAnimation then
+			overrideYield = true
+		else
+			animationDone = true
+			for lineNum, list in pairs(textFrames) do
+				for _, frame in pairs(list) do
+					setGroupVisible(frame, true)
+				end
+			end
+		end
+		if self.NextTextObject then
+			self.NextTextObject:Show(finishAnimation)
+		end
+	end
+	
+	function textObject:Hide()
+		animationDone = true
+		for lineNum, list in pairs(textFrames) do
+			for _, frame in pairs(list) do
+				setGroupVisible(frame, false)
+			end
+		end
+		if self.NextTextObject then
+			self.NextTextObject:Hide()
+		end
+	end
+	
+	return textObject
+end
+
+
+function richText:ContinueOverflow(newFrame, prevTextObject)
+	return richText:New(newFrame, nil, nil, false, prevTextObject)
+end
+
+
+return richText
+]]></ProtectedString>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+			</Item>
 		</Item>
 	</Item>
 	<Item class="LuaWebService" referent="RBXCFA11E03EA044BF3B3931B00BA146D3E">
@@ -11295,11 +15716,11 @@ end
 	<Item class="Lighting" referent="RBX0E8393EE130246EBAB03B4D641DE478F">
 		<Properties>
 			<Color3 name="Ambient">
-				<R>1</R>
-				<G>1</G>
-				<B>1</B>
+				<R>0.501960814</R>
+				<G>0.501960814</G>
+				<B>0.501960814</B>
 			</Color3>
-			<float name="Brightness">0</float>
+			<float name="Brightness">1</float>
 			<Color3 name="ColorShift_Bottom">
 				<R>0</R>
 				<G>0</G>
@@ -11330,10 +15751,10 @@ end
 			<bool name="Outlines">false</bool>
 			<float name="ShadowSoftness">0.5</float>
 			<BinaryString name="Tags"></BinaryString>
-			<token name="Technology">3</token>
+			<token name="Technology">1</token>
 			<string name="TimeOfDay">14:00:00</string>
 		</Properties>
-		<Item class="Sky" referent="RBX0">
+		<Item class="Sky" referent="RBX2C66E48B4C2A49A9B2C3628B96E04380">
 			<Properties>
 				<bool name="CelestialBodiesShown">false</bool>
 				<float name="MoonAngularSize">11</float>

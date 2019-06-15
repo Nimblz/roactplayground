@@ -6,6 +6,8 @@ local PizzaAlpaca = require(lib:WaitForChild("PizzaAlpaca"))
 
 local Logger = PizzaAlpaca.GameModule:extend("Logger")
 
+local LOG_FORMAT_STRING = "[%s][%s]: %s"
+
 local logtype = {
     OUTPUT = 1,
     WARNING = 2,
@@ -31,9 +33,20 @@ function Logger:create() -- constructor, fired on instantiation, core will be ni
     self.logtype = logtype
 end
 
-function Logger:log(module, severity, msg)
-    local logstring = "[%s][%s]: %s"
-    printFuncs[severity or logtype.OUTPUT](logstring:format(tostring(module),tostring(logtypeNames[severity]),tostring(msg)))
+function Logger:createLogger(module)
+    local logger = {}
+    logger.logtype = logtype
+
+    function logger:log(msg,severity)
+        severity = severity or logtype.OUTPUT
+        printFuncs[severity or logtype.OUTPUT](LOG_FORMAT_STRING:format(
+            tostring(module),
+            tostring(logtypeNames[severity]),
+            tostring(msg))
+        )
+    end
+
+    return logger
 end
 
 return Logger
