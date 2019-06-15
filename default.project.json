@@ -35,6 +35,9 @@
         },
         "RichText": {
           "$path": "lib/richtextmarkup"
+        },
+        "Otter": {
+          "$path": "lib/otter/lib"
         }
       }
     },
