@@ -20,15 +20,6 @@ end
 function App:render()
     local children = {}
 
-    children.codeLabLogo = Roact.createElement(CodeLabLogo,{
-        Position = UDim2.new(0.5,0,0.5),
-    })
-
-    children.clock = Roact.createElement(Clock,{
-        AnchorPoint = Vector2.new(0.5,0),
-        Position = UDim2.new(0.5,0,0,32),
-    })
-
     return Roact.createElement("ScreenGui", {
         Name = "gameGui",
         ResetOnSpawn = false,

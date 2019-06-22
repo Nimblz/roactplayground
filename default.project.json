@@ -38,6 +38,12 @@
         },
         "Otter": {
           "$path": "lib/otter/lib"
+        },
+        "t": {
+          "$path": "lib/t/lib"
+        },
+        "RECS": {
+          "$path": "lib/recs/src"
         }
       }
     },
