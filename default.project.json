@@ -44,6 +44,9 @@
         },
         "RECS": {
           "$path": "lib/recs/src"
+        },
+        "Signal": {
+          "$path": "lib/signal/lib/Signal.lua"
         }
       }
     },

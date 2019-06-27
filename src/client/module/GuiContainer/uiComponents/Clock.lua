@@ -15,16 +15,15 @@ local SECS_IN_MIN = 60
 local SECS_IN_HOUR = SECS_IN_MIN*60
 local HOURS_ON_FACE = 12
 
-local CLOCK_SIZE = 256
 local ARM_PADDING = 6
 local HOUR_HAND_RATIO = 1/2
 
-local function hourMarks(numHours)
+local function hourMarks(numHours,radius)
     local marks = {}
     for i = 1,numHours do
         local theta = (i/numHours)*math.pi*2
-        local posX = math.sin(theta)*(CLOCK_SIZE/2)
-        local posY = math.cos(theta)*(CLOCK_SIZE/2)
+        local posX = math.sin(theta)*(radius)
+        local posY = math.cos(theta)*(radius)
         marks["hour_"..i] = Roact.createElement("Frame", {
             AnchorPoint = Vector2.new(0.5,0.5),
             Position = UDim2.new(0.5,posX+1,0.5,posY+1),
@@ -65,7 +64,7 @@ local function clockHand(theta,length,thickness,color)
     })
 end
 
-local function hands(t)
+local function hands(t,radius)
     local secOfMin = (t%(60))/(SECS_IN_MIN)
     local minOfHour = (t%(60*60))/(SECS_IN_HOUR)
     local hourOfDay = (t%(60*60*12))/(SECS_IN_HOUR*HOURS_ON_FACE)
@@ -74,9 +73,9 @@ local function hands(t)
     local minHandTheta = minOfHour * math.pi * 2
     local hourHandTheta = hourOfDay * math.pi * 2
 
-    local secHand = clockHand(secHandTheta,(CLOCK_SIZE/2)-ARM_PADDING, 2,Color3.fromRGB(180,40,40))
-    local minHand = clockHand(minHandTheta,(CLOCK_SIZE/2)-ARM_PADDING)
-    local hourHand = clockHand(hourHandTheta,((CLOCK_SIZE/2)-ARM_PADDING)*HOUR_HAND_RATIO)
+    local secHand = clockHand(secHandTheta,(radius)-ARM_PADDING, 2,Color3.fromRGB(180,40,40))
+    local minHand = clockHand(minHandTheta,(radius)-ARM_PADDING)
+    local hourHand = clockHand(hourHandTheta,((radius)-ARM_PADDING)*HOUR_HAND_RATIO)
 
     return Roact.createElement("Frame", {
         Size = UDim2.new(1,0,1,0),
@@ -100,15 +99,13 @@ end
 
 function Clock:render()
     local clockFrameProps = Dictionary.join(self.props, {
-        Size = UDim2.new(0,CLOCK_SIZE,0,CLOCK_SIZE),
-
         BorderSizePixel = 0,
         BackgroundTransparency = 1
     })
 
     local clockFrameChildren = {
-        hourMarks = hourMarks(HOURS_ON_FACE),
-        hands = hands(self.state.time),
+        hourMarks = hourMarks(HOURS_ON_FACE,self.props.Size.Y.Offset/2),
+        hands = hands(self.state.time,self.props.Size.Y.Offset/2),
     }
 
     return Roact.createElement("Frame", clockFrameProps, clockFrameChildren)

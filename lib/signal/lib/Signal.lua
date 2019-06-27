@@ -49,6 +49,10 @@ function Signal.new()
 		return unpack(mArgData, 1, mArgDataCount)
 	end
 
+	sig.Connect = sig.connect
+	sig.Wait = sig.wait
+	sig.Fire = sig.fire
+
 	return sig
 end
 

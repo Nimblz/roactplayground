@@ -1,8 +1,8 @@
-local selectedInteractable = require(script:WaitForChild("selectedInteractable"))
+local targetInteractable = require(script:WaitForChild("targetInteractable"))
 
 return function(state,action)
     state = state or {}
     return {
-        selectedInteractable = selectedInteractable(state.selectedInteractable, action),
+        targetInteractable = targetInteractable(state.targetInteractable, action),
     }
 end
