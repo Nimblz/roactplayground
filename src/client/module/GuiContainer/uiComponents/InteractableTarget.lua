@@ -9,14 +9,44 @@ local lib = ReplicatedStorage:WaitForChild("lib")
 local Roact = require(lib:WaitForChild("Roact"))
 local RoactRodux = require(lib:WaitForChild("RoactRodux"))
 local Selectors = require(common:WaitForChild("Selectors"))
+local Otter = require(lib:WaitForChild("Otter"))
 
 local InteractableTarget = Roact.Component:extend("InteractableTarget")
 
 function InteractableTarget:init(initialProps)
+    self:setState({
+        fade = 1
+    })
+end
+
+function InteractableTarget:doFade()
+    if self.fadeMotor then
+        self.fadeMotor:stop()
+    end
+    self.fadeMotor = Otter.createSingleMotor(1)
+    self.fadeMotor:onStep(function(value)
+        print(value)
+        self:setState({
+            fade = value
+        })
+    end)
+    self.fadeMotor:setGoal(Otter.spring(0, {dampingRatio = 1, frequency = 5}))
+    self.fadeMotor:start()
+end
+
+function InteractableTarget:didMount()
+    self:doFade()
+end
+
+function InteractableTarget:didUpdate(prevProps,prevState)
+    if self.props.targetInteractable ~= prevProps.targetInteractable then
+        self:doFade()
+    end
 end
 
 function InteractableTarget:render()
     if self.props.targetInteractable then
+        print(self.state.fade)
 
         local instanceRoot = self.props.targetInteractable
         if instanceRoot:IsA("Model") then
@@ -28,12 +58,14 @@ function InteractableTarget:render()
             Adornee = instanceRoot,
             AlwaysOnTop = true,
             ResetOnSpawn = false,
-            Size = UDim2.new(0,64,0,64),
+            Size = UDim2.new(0,48,0,48),
             MaxDistance = 64,
             ZIndexBehavior = Enum.ZIndexBehavior.Sibling,
         }, {
             Roact.createElement("ImageLabel", {
                 Image = "rbxassetid://924320031",
+                BackgroundTransparency = 1,
+                ImageTransparency = math.clamp(self.state.fade,0,1),
                 Size = UDim2.new(1,0,1,0),
                 BorderSizePixel = 0,
             })
