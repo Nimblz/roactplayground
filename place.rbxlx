@@ -39,26 +39,26 @@
 		<Item class="Camera" referent="RBXC4CC51F9FA8F4009AA5943FDBD74C395">
 			<Properties>
 				<CoordinateFrame name="CFrame">
-					<X>14.5951786</X>
-					<Y>13.9467802</Y>
-					<Z>14.9052057</Z>
-					<R00>0.312520772</R00>
-					<R01>-0.451877624</R01>
-					<R02>0.835546196</R02>
+					<X>13.0460854</X>
+					<Y>30.5867424</Y>
+					<Z>-16.3653393</Z>
+					<R00>-0.94080472</R00>
+					<R01>-0.190052509</R01>
+					<R02>0.280653924</R02>
 					<R10>-0</R10>
-					<R11>0.879604816</R11>
-					<R12>0.475705266</R12>
-					<R20>-0.949910939</R20>
-					<R21>-0.148667783</R21>
-					<R22>0.274894774</R22>
+					<R11>0.828011751</R11>
+					<R12>0.560710847</R12>
+					<R20>-0.338949233</R20>
+					<R21>0.527519405</R21>
+					<R22>-0.778997302</R22>
 				</CoordinateFrame>
 				<Ref name="CameraSubject">null</Ref>
 				<token name="CameraType">0</token>
 				<float name="FieldOfView">70</float>
 				<CoordinateFrame name="Focus">
-					<X>12.9240866</X>
-					<Y>12.9953699</Y>
-					<Z>14.3554163</Z>
+					<X>12.4847775</X>
+					<Y>29.4653206</Y>
+					<Z>-14.8073444</Z>
 					<R00>1</R00>
 					<R01>0</R01>
 					<R02>0</R02>
@@ -5194,14 +5194,44 @@ local lib = ReplicatedStorage:WaitForChild("lib")
 local Roact = require(lib:WaitForChild("Roact"))
 local RoactRodux = require(lib:WaitForChild("RoactRodux"))
 local Selectors = require(common:WaitForChild("Selectors"))
+local Otter = require(lib:WaitForChild("Otter"))
 
 local InteractableTarget = Roact.Component:extend("InteractableTarget")
 
 function InteractableTarget:init(initialProps)
+    self:setState({
+        fade = 1
+    })
+end
+
+function InteractableTarget:doFade()
+    if self.fadeMotor then
+        self.fadeMotor:stop()
+    end
+    self.fadeMotor = Otter.createSingleMotor(1)
+    self.fadeMotor:onStep(function(value)
+        print(value)
+        self:setState({
+            fade = value
+        })
+    end)
+    self.fadeMotor:setGoal(Otter.spring(0, {dampingRatio = 1, frequency = 5}))
+    self.fadeMotor:start()
+end
+
+function InteractableTarget:didMount()
+    self:doFade()
+end
+
+function InteractableTarget:didUpdate(prevProps,prevState)
+    if self.props.targetInteractable ~= prevProps.targetInteractable then
+        self:doFade()
+    end
 end
 
 function InteractableTarget:render()
     if self.props.targetInteractable then
+        print(self.state.fade)
 
         local instanceRoot = self.props.targetInteractable
         if instanceRoot:IsA("Model") then
@@ -5213,12 +5243,14 @@ function InteractableTarget:render()
             Adornee = instanceRoot,
             AlwaysOnTop = true,
             ResetOnSpawn = false,
-            Size = UDim2.new(0,64,0,64),
+            Size = UDim2.new(0,48,0,48),
             MaxDistance = 64,
             ZIndexBehavior = Enum.ZIndexBehavior.Sibling,
         }, {
             Roact.createElement("ImageLabel", {
                 Image = "rbxassetid://924320031",
+                BackgroundTransparency = 1,
+                ImageTransparency = math.clamp(self.state.fade,0,1),
                 Size = UDim2.new(1,0,1,0),
                 BorderSizePixel = 0,
             })
@@ -5430,7 +5462,7 @@ return StoreContainer]]></ProtectedString>
 
 local common = ReplicatedStorage:WaitForChild("common")
 local lib = ReplicatedStorage:WaitForChild("lib")
-local recsPlugins = common:WaitForChild("recsPlugins")
+local recsPlugins = common:WaitForChild("recsplugins")
 
 local RECS = require(lib:WaitForChild("RECS"))
 local PizzaAlpaca = require(lib:WaitForChild("PizzaAlpaca"))
@@ -7064,79 +7096,6 @@ return {
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="ModuleScript" referent="RBXDE5E8AA1C1604FF38AD69CC62C66A9C5">
-				<Properties>
-					<Content name="LinkedSource"><null></null></Content>
-					<string name="Name">Dialogue</string>
-					<string name="ScriptGuid">{DF39C696-31B9-4432-B4C5-7F886AFEFC6A}</string>
-					<ProtectedString name="Source"><![CDATA[local ReplicatedStorage = game:GetService("ReplicatedStorage")
-local common = ReplicatedStorage:WaitForChild("common")
-
-local by = require(common.util:WaitForChild("by"))
-local compileSubmodulesToArray = require(common.util:WaitForChild("compileSubmodulesToArray"))
-local all = compileSubmodulesToArray(script, true)
-
-return {
-    all = all,
-    byId = by("id", all),
-}]]></ProtectedString>
-					<BinaryString name="Tags"></BinaryString>
-				</Properties>
-				<Item class="ModuleScript" referent="RBX15700E2BD75944F1A3CF26DEEE0E24D3">
-					<Properties>
-						<Content name="LinkedSource"><null></null></Content>
-						<string name="Name">TestDialogue</string>
-						<string name="ScriptGuid">{20B46A74-0BCC-479C-9E64-3E4DBA2DB673}</string>
-						<ProtectedString name="Source"><![CDATA[local ReplicatedStorage = game:GetService("ReplicatedStorage")
-
-local common = ReplicatedStorage:WaitForChild("common")
-local lib = ReplicatedStorage:WaitForChild("lib")
-
-local dialogNode = require(common.dialogNode)
-local dialogResponse = require(common.dialogResponse)
-
--- test for onSelect
-local explosionResponse = dialogResponse({
-    text = "please explode me!",
-    onSelect = function(player, server)
-        local character = player.Character
-        if not character then return end
-        local root = character.PrimaryPart
-        if not root then return end
-
-        local explosion = Instance.new("Explosion")
-        explosion.Position = root.Position
-        explosion.BlastRadius = 4
-        explosion.Parent = character
-    end,
-})
-
-local foobarResponse = dialogResponse({
-    text = "foobar",
-    nextNode = dialogNode({
-        text = "baz!",
-        responseOptions = {
-            explosionResponse, -- nested option test
-        }
-    })
-})
-
-local dialogRoot = dialogNode({
-    text = "Hello world!~",
-    responseOptions = {
-        foobarResponse, -- 1
-        explosionResponse, -- 2
-    }
-})
-
-return {
-    id = "testDialogue",
-    root = dialogRoot,
-}]]></ProtectedString>
-						<BinaryString name="Tags"></BinaryString>
-					</Properties>
-				</Item>
-			</Item>
 			<Item class="ModuleScript" referent="RBX955E228EEEEE4BD9B15A3E511466F2FD">
 				<Properties>
 					<Content name="LinkedSource"><null></null></Content>
@@ -7321,33 +7280,6 @@ end]]></ProtectedString>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="Folder" referent="RBX3B83C9FEEAA74988A6A9887E0BAD0303">
-				<Properties>
-					<string name="Name">recsPlugins</string>
-					<BinaryString name="Tags"></BinaryString>
-				</Properties>
-				<Item class="ModuleScript" referent="RBXD5E41E68C5064F519F54E436E03E0BEC">
-					<Properties>
-						<Content name="LinkedSource"><null></null></Content>
-						<string name="Name">createInjectorPlugin</string>
-						<string name="ScriptGuid">{ED26F988-5382-41CD-8336-BFACD0AEDC3F}</string>
-						<ProtectedString name="Source"><![CDATA[local function createInjectorPlugin(key,value)
-    local injectorPlugin = {}
-
-    function injectorPlugin:beforeSystemStart(core)
-        for _, system in pairs(core._systems) do
-            system[key] = value
-        end
-    end
-
-    return injectorPlugin
-end
-
-return createInjectorPlugin]]></ProtectedString>
-						<BinaryString name="Tags"></BinaryString>
-					</Properties>
-				</Item>
-			</Item>
 			<Item class="ModuleScript" referent="RBX68C55CACAD034023A4CB792DB448D029">
 				<Properties>
 					<Content name="LinkedSource"><null></null></Content>
@@ -7371,11 +7303,105 @@ end]]></ProtectedString>
 					</Properties>
 				</Item>
 			</Item>
-			<Item class="Folder" referent="RBX59663D04AD3345408AF34AB09EF209D7">
+			<Item class="ModuleScript" referent="RBX7FB53F54CF9B439F9AB2CDDFF9248146">
 				<Properties>
-					<string name="Name">object</string>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">Dialogs</string>
+					<string name="ScriptGuid">{E40D9A44-E227-481D-A553-19FFC2C7302A}</string>
+					<ProtectedString name="Source"><![CDATA[local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local common = ReplicatedStorage:WaitForChild("common")
+
+local by = require(common.util:WaitForChild("by"))
+local compileSubmodulesToArray = require(common.util:WaitForChild("compileSubmodulesToArray"))
+local all = compileSubmodulesToArray(script, true)
+
+return {
+    all = all,
+    byId = by("id", all),
+}]]></ProtectedString>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
+				<Item class="ModuleScript" referent="RBX30401D75EA464EDFBE55451758E17496">
+					<Properties>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">TestDialog</string>
+						<string name="ScriptGuid">{4EDE5EBE-DC37-4C72-A42F-70F84FE4ED87}</string>
+						<ProtectedString name="Source"><![CDATA[local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local common = ReplicatedStorage:WaitForChild("common")
+local lib = ReplicatedStorage:WaitForChild("lib")
+
+local dialogNode = require(common.dialogNode)
+local dialogResponse = require(common.dialogResponse)
+
+-- test for onSelect
+local explosionResponse = dialogResponse({
+    text = "please explode me!",
+    onSelect = function(player, server)
+        local character = player.Character
+        if not character then return end
+        local root = character.PrimaryPart
+        if not root then return end
+
+        local explosion = Instance.new("Explosion")
+        explosion.Position = root.Position
+        explosion.BlastRadius = 4
+        explosion.Parent = character
+    end,
+})
+
+local foobarResponse = dialogResponse({
+    text = "foobar",
+    nextNode = dialogNode({
+        text = "baz!",
+        responseOptions = {
+            explosionResponse, -- nested option test
+        }
+    })
+})
+
+local dialogRoot = dialogNode({
+    text = "Hello world!~",
+    responseOptions = {
+        foobarResponse, -- 1
+        explosionResponse, -- 2
+    }
+})
+
+return {
+    id = "testDialog",
+    root = dialogRoot,
+}]]></ProtectedString>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+				</Item>
+			</Item>
+			<Item class="Folder" referent="RBXB097DB05A5BD47779290FA4FF7E839AD">
+				<Properties>
+					<string name="Name">recsplugins</string>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+				<Item class="ModuleScript" referent="RBX40977CBA128B4633B8621EC0829282D4">
+					<Properties>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">createInjectorPlugin</string>
+						<string name="ScriptGuid">{4CAA777F-BF3D-4291-BE93-389F10BF812B}</string>
+						<ProtectedString name="Source"><![CDATA[local function createInjectorPlugin(key,value)
+    local injectorPlugin = {}
+
+    function injectorPlugin:beforeSystemStart(core)
+        for _, system in pairs(core._systems) do
+            system[key] = value
+        end
+    end
+
+    return injectorPlugin
+end
+
+return createInjectorPlugin]]></ProtectedString>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+				</Item>
 			</Item>
 		</Item>
 		<Item class="Folder" referent="RBX6DADF00B7BC742A1A23D8D84DFF38E60">
