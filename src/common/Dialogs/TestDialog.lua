@@ -41,6 +41,6 @@ local dialogRoot = dialogNode({
 })
 
 return {
-    id = "testDialogue",
+    id = "testDialog",
     root = dialogRoot,
 }
