@@ -8,7 +8,7 @@ local getDiffs = require(util:WaitForChild("getDiffs"))
 local rigRenderer = {}
 
 function rigRenderer:created()
-    print("hoo")
+    
 end
 
 function rigRenderer:removing()

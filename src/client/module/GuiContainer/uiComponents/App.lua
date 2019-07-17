@@ -7,6 +7,7 @@ local uiComponents = script:FindFirstAncestor("uiComponents")
 local Roact = require(lib:WaitForChild("Roact"))
 
 local InteractableTarget = require(uiComponents.InteractableTarget)
+local NotificationContainer = require(uiComponents.NotificationContainer)
 local Clock = require(uiComponents.Clock)
 
 local App = Roact.Component:extend("App")
@@ -22,6 +23,8 @@ function App:render()
         AnchorPoint = Vector2.new(1,1),
         Size = UDim2.new(0,64,0,64),
     })
+
+    children.notificationContainer = Roact.createElement(NotificationContainer)
 
     children.interactableTarget = Roact.createElement(InteractableTarget)
 

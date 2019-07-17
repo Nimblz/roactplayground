@@ -25,7 +25,6 @@ function InteractableTarget:doFade()
     end
     self.fadeMotor = Otter.createSingleMotor(1)
     self.fadeMotor:onStep(function(value)
-        print(value)
         self:setState({
             fade = value
         })
@@ -46,7 +45,6 @@ end
 
 function InteractableTarget:render()
     if self.props.targetInteractable then
-        print(self.state.fade)
 
         local instanceRoot = self.props.targetInteractable
         if instanceRoot:IsA("Model") then
